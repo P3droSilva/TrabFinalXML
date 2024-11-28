@@ -1,0 +1,280 @@
+{
+    "nfeProc": {
+        "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+        "@versao": "4.00",
+        "NFe": {
+            "infNFe": {
+                "@Id": "NFe35231215436940000286550080357653071189793758",
+                "@versao": "4.00",
+                "ide": {
+                    "cUF": "35",
+                    "cNF": "18979375",
+                    "natOp": "Venda de merc adq ou rec terc, destinada a nao contribuinte",
+                    "mod": "55",
+                    "serie": "8",
+                    "nNF": "35765307",
+                    "dhEmi": "2023-12-22T13:58:54-03:00",
+                    "tpNF": "1",
+                    "idDest": "2",
+                    "cMunFG": "3509205",
+                    "tpImp": "1",
+                    "tpEmis": "1",
+                    "cDV": "8",
+                    "tpAmb": "1",
+                    "finNFe": "1",
+                    "indFinal": "1",
+                    "indPres": "2",
+                    "indIntermed": "0",
+                    "procEmi": "0",
+                    "verProc": "1.0"
+                },
+                "emit": {
+                    "CNPJ": "15436940000286",
+                    "xNome": "AMAZON SERVICOS DE VAREJO DO BRASIL LTDA",
+                    "xFant": "AMAZON.COM.BR",
+                    "enderEmit": {
+                        "xLgr": "V AC NORTE KM 38",
+                        "nro": "420",
+                        "xBairro": "EMPRESARIAL GATO PRETO (JORDANESIA)",
+                        "cMun": "3509205",
+                        "xMun": "CAJAMAR",
+                        "UF": "SP",
+                        "CEP": "07789100",
+                        "cPais": "1058",
+                        "xPais": "BRASIL"
+                    },
+                    "IE": "241115791117",
+                    "IEST": "9000022237",
+                    "CRT": "3"
+                },
+                "dest": {
+                    "CPF": "***CPF CENSURADO***",
+                    "xNome": "Pedro Henrique Hinerasky",
+                    "enderDest": {
+                        "xLgr": "Rua Barao do Triunfo",
+                        "nro": "1494",
+                        "xCpl": "Ap. 502 Nossa Senhora de Fatima",
+                        "xBairro": "Nossa Senhora de Fatima",
+                        "cMun": "4316907",
+                        "xMun": "Santa Maria",
+                        "UF": "RS",
+                        "CEP": "97015070",
+                        "cPais": "1058",
+                        "fone": "5555999081444"
+                    },
+                    "indIEDest": "9"
+                },
+                "det": [
+                    {
+                        "@nItem": "1",
+                        "prod": {
+                            "cProd": "1421598264",
+                            "cEAN": "9781421598260",
+                            "xProd": "The Legend of Zelda: Twilight Princess, Vol. 3: Volume 3",
+                            "NCM": "49019900",
+                            "CFOP": "6108",
+                            "uCom": "UN",
+                            "qCom": "1",
+                            "vUnCom": "54.3200000000",
+                            "vProd": "54.32",
+                            "cEANTrib": "9781421598260",
+                            "uTrib": "UN",
+                            "qTrib": "1",
+                            "vUnTrib": "54.3200000000",
+                            "indTot": "1",
+                            "xPed": "320848066725201"
+                        },
+                        "imposto": {
+                            "vTotTrib": "18.17",
+                            "ICMS": {
+                                "ICMS40": {
+                                    "orig": "1",
+                                    "CST": "41"
+                                }
+                            },
+                            "IPI": {
+                                "cEnq": "001",
+                                "IPINT": {
+                                    "CST": "54"
+                                }
+                            },
+                            "PIS": {
+                                "PISNT": {
+                                    "CST": "06"
+                                }
+                            },
+                            "COFINS": {
+                                "COFINSNT": {
+                                    "CST": "06"
+                                }
+                            },
+                            "ICMSUFDest": {
+                                "vBCUFDest": "0.00",
+                                "vBCFCPUFDest": "0.00",
+                                "pFCPUFDest": "0.0000",
+                                "pICMSUFDest": "17.0000",
+                                "pICMSInter": "4.00",
+                                "pICMSInterPart": "100.0000",
+                                "vFCPUFDest": "0.00",
+                                "vICMSUFDest": "0.00",
+                                "vICMSUFRemet": "0.00"
+                            }
+                        },
+                        "infAdProd": "NAO INCIDENCIA DO ICMS, ART. 7, XIII, RICMS/SP;Ao aceitar essa mercadoria, voce autoriza a empresa vendedora a recuperar tributos incidentes nessa operacao, conforme legislacao tributaria aplicavel.Imunidade: Art. 150, VI, d, CF; Art. 18, I, RIPI;"
+                    },
+                    {
+                        "@nItem": "2",
+                        "prod": {
+                            "cProd": "1974705641",
+                            "cEAN": "9781974705641",
+                            "xProd": "The Legend of Zelda: Twilight Princess, Vol. 5: Volume 5",
+                            "NCM": "49019900",
+                            "CFOP": "6108",
+                            "uCom": "UN",
+                            "qCom": "1",
+                            "vUnCom": "54.3400000000",
+                            "vProd": "54.34",
+                            "cEANTrib": "9781974705641",
+                            "uTrib": "UN",
+                            "qTrib": "1",
+                            "vUnTrib": "54.3400000000",
+                            "indTot": "1",
+                            "xPed": "320848066725201"
+                        },
+                        "imposto": {
+                            "vTotTrib": "18.18",
+                            "ICMS": {
+                                "ICMS40": {
+                                    "orig": "1",
+                                    "CST": "41"
+                                }
+                            },
+                            "IPI": {
+                                "cEnq": "001",
+                                "IPINT": {
+                                    "CST": "54"
+                                }
+                            },
+                            "PIS": {
+                                "PISNT": {
+                                    "CST": "06"
+                                }
+                            },
+                            "COFINS": {
+                                "COFINSNT": {
+                                    "CST": "06"
+                                }
+                            },
+                            "ICMSUFDest": {
+                                "vBCUFDest": "0.00",
+                                "vBCFCPUFDest": "0.00",
+                                "pFCPUFDest": "0.0000",
+                                "pICMSUFDest": "17.0000",
+                                "pICMSInter": "4.00",
+                                "pICMSInterPart": "100.0000",
+                                "vFCPUFDest": "0.00",
+                                "vICMSUFDest": "0.00",
+                                "vICMSUFRemet": "0.00"
+                            }
+                        },
+                        "infAdProd": "NAO INCIDENCIA DO ICMS, ART. 7, XIII, RICMS/SP;Ao aceitar essa mercadoria, voce autoriza a empresa vendedora a recuperar tributos incidentes nessa operacao, conforme legislacao tributaria aplicavel.Imunidade: Art. 150, VI, d, CF; Art. 18, I, RIPI;"
+                    }
+                ],
+                "total": {
+                    "ICMSTot": {
+                        "vBC": "0.00",
+                        "vICMS": "0.00",
+                        "vICMSDeson": "0.00",
+                        "vFCPUFDest": "0.00",
+                        "vICMSUFDest": "0.00",
+                        "vICMSUFRemet": "0.00",
+                        "vFCP": "0.00",
+                        "vBCST": "0.00",
+                        "vST": "0.00",
+                        "vFCPST": "0.00",
+                        "vFCPSTRet": "0.00",
+                        "vProd": "108.66",
+                        "vFrete": "0.00",
+                        "vSeg": "0.00",
+                        "vDesc": "0.00",
+                        "vII": "0.00",
+                        "vIPI": "0.00",
+                        "vIPIDevol": "0.00",
+                        "vPIS": "0.00",
+                        "vCOFINS": "0.00",
+                        "vOutro": "0.00",
+                        "vNF": "108.66",
+                        "vTotTrib": "36.35"
+                    }
+                },
+                "transp": {
+                    "modFrete": "0",
+                    "transporta": null
+                },
+                "pag": {
+                    "detPag": {
+                        "indPag": "0",
+                        "tPag": "03",
+                        "vPag": "108.66"
+                    }
+                },
+                "infAdic": {
+                    "infAdFisco": "De acordo com a cls 6, par 2 do Convenio ICMS 236 2021 o ICMS devido ao destino sera recolhido ate o 15 dia do mes subsequente, em razao da inscricao no Cadastro de Contribuintes do ICMS no referido Estado.",
+                    "infCpl": "Valor aproximado dos tributos: Federal - R$ 16.79 (15.45%); Estadual - R$ 19.56 (18.00%); Municipal - R$ 0.00 (0.00%) - Fonte IBPT. EC 87/2015  ASIN: 1421598264: DIFAL da UF destino R$ 0.00 + FCP R$ 0.00; DIFAL da UF Origem R$ 0.00. ASIN: 1974705641: DIFAL da UF destino R$ 0.00 + FCP R$ 0.00; DIFAL da UF Origem R$ 0.00. Numero do pedido da compra: 701-4611690-7508269",
+                    "obsCont": {
+                        "@xCampo": "icmsTransporte",
+                        "xTexto": "0"
+                    }
+                },
+                "compra": null
+            },
+            "Signature": {
+                "@xmlns": "http://www.w3.org/2000/09/xmldsig#",
+                "SignedInfo": {
+                    "CanonicalizationMethod": {
+                        "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                    },
+                    "SignatureMethod": {
+                        "@Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                    },
+                    "Reference": {
+                        "@URI": "#NFe35231215436940000286550080357653071189793758",
+                        "Transforms": {
+                            "Transform": [
+                                {
+                                    "@Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                },
+                                {
+                                    "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                                }
+                            ]
+                        },
+                        "DigestMethod": {
+                            "@Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+                        },
+                        "DigestValue": "CMi2qUAJ3F2XFa+vM0FPhwaLFUA="
+                    }
+                },
+                "SignatureValue": "JH1xUV86i/GQLnHwU9civQ6rSe74Lfaxs72EwDwaW3ISjJQEVGADW7MGMuuB2gHWftlHvCeTERQs\r\nzln8jSvSO+6w1fgg45okpq9nooRfxPips+sA0o2xfak53zCbaWkg/DNIPTh7RK20XVUqNizlM1Ur\r\nj06If5+M1q/X7MYHSVxaifvHDyHuIGVMIwd6J6fpTgrSKEjG1Dh0AixzTlKbfiEu8WvhVpjchd02\r\njKiBRz0iN6XWUquz3iip+f3dg2v4AMNxCvNc8M76exnTZal7VrfXT0c9ohcTWLJ1Ls7ji71MlH4z\r\nIh47Lbz6Lny8N/MSCY3JOLHgmUr1LrQJg/XdVw==",
+                "KeyInfo": {
+                    "X509Data": {
+                        "X509Certificate": "MIIHSDCCBTCgAwIBAgIIfg4jBRls83QwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR\r\nBgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M\r\nVVRJIE11bHRpcGxhIHY1MB4XDTIzMDYwNTE0MzAwMFoXDTI0MDYwNDE0MzAwMFowgfYxCzAJBgNV\r\nBAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJTUDESMBAGA1UEBxMJU2FvIFBh\r\ndWxvMR4wHAYDVQQLExVBQyBTT0xVVEkgTXVsdGlwbGEgdjUxFzAVBgNVBAsTDjE4Nzk5ODk3MDAw\r\nMTIwMRkwFwYDVQQLExBWaWRlb2NvbmZlcmVuY2lhMRowGAYDVQQLExFDZXJ0aWZpY2FkbyBQSiBB\r\nMTFBMD8GA1UEAxM4QU1BWk9OIFNFUlZJQ09TIERFIFZBUkVKTyBETyBCUkFTSUwgTFREQS46MTU0\r\nMzY5NDAwMDAxMDMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPRc33i6xFFzLQD1Yz\r\nAScWJoH59ESjADpALZpRaIsdUTytDblGXdGQQFeUARz81k/icNfcqppLAL5eCaU4sOv3u7TqUIWy\r\nwcORYAJd3VdQ3FW2CkchUS3xOw/Qv1YZ5NRahx9JRGEzHg6EiUtmhihN8MfKqi1draVNzhlYIGdx\r\nBf8d3/OXXV0nkDSLEbYVLliMkVs3jI+p9R8x1z1MYdJnafjK+NIYb7ElIpDkySVylPkbk0sjYEnZ\r\nz4ZpMy40sFWCBoGXtUOEAX9e4KPinQQW6sEq1N+Q+uTtWoN494EM0vtqnselnUyj++/XHwoHe3z/\r\nOVRAAIYC5cpVGLWAqKcdAgMBAAGjggJ0MIICcDAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFMVS7SWA\r\nCd+cgsifR8bdtF8x3bmxMFQGCCsGAQUFBwEBBEgwRjBEBggrBgEFBQcwAoY4aHR0cDovL2NjZC5h\r\nY3NvbHV0aS5jb20uYnIvbGNyL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5wN2Iwga8GA1UdEQSBpzCB\r\npIERZ3VpcGVsQGFtYXpvbi5jb22gIQYFYEwBAwKgGBMWREFOSUVMIE1BWklOSSBEQSBST0NIQaAZ\r\nBgVgTAEDA6AQEw4xNTQzNjk0MDAwMDEwM6A4BgVgTAEDBKAvEy0wNzA3MTk3ODA0MzA2NjgxNzE4\r\nMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDCgFwYFYEwBAwegDhMMMDAwMDAwMDAwMDAwMF0GA1Ud\r\nIARWMFQwUgYGYEwBAgEmMEgwRgYIKwYBBQUHAgEWOmh0dHA6Ly9jY2QuYWNzb2x1dGkuY29tLmJy\r\nL2RvY3MvZHBjLWFjLXNvbHV0aS1tdWx0aXBsYS5wZGYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsG\r\nAQUFBwMEMIGMBgNVHR8EgYQwgYEwPqA8oDqGOGh0dHA6Ly9jY2QuYWNzb2x1dGkuY29tLmJyL2xj\r\nci9hYy1zb2x1dGktbXVsdGlwbGEtdjUuY3JsMD+gPaA7hjlodHRwOi8vY2NkMi5hY3NvbHV0aS5j\r\nb20uYnIvbGNyL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5jcmwwHQYDVR0OBBYEFD9Y38kk1PiZjfV3\r\n6xQcgo/BoSjmMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAgEApxXi81vplqxxZDXN\r\nFfbOMKiOwCwq2z8BjhjnPetHx1HNQ6pybRPlaxZZUlL/DlFeCxKtO5qEsCT5/3FDz86cEtjc6MVS\r\nhrEPdj6Hs6WemGmBDxzm2Y4pluTFdZic5rE8aBas9Bb/FO9wpBRrj2GCFJgkKuPOPc1pzDXRyPs7\r\n0pbDdZXltV3T0lQBjwljNx0OwFs5Tid9o9zCKrFFuSoqHkmTqHucdWyPqw0GmFzywH8dLyc6emEl\r\ncqGHbgrzzemS97S07J7eyO6E1l4SmZf7/4ukqfbjQZ0Fswrxk/JgWQptsC7BYnhDu4fGZ4UYDayT\r\nK5ztH5Z3S/9Mha2NN5i66aL1SoQf9r6Wn/lJFvxn3skCASrR//W3XE9nKZ9f+mZmVj/pGh25GPPl\r\nY/B8gXJEJpr22jRzqPCXcaZrTdcylPBcALeNh6bWJ9wav2AXONcPG1p8RFXdbEAqEFwH9/eRLjxs\r\nd7r4lZyXN9rPr203wZKxGIR4ZM3CEMDaC8c45qxKgnvsKWpxIZbSm4Et8CtxPzaFWz5aT8QiEIGn\r\nx1WMIS3qiSuffrSdxF+LLDT3hBjZmC148a2xneocasOkBM3HjerY9Pbx35XZJploVpSSLKrFdUXe\r\nYyiSaWH5eROzYM+sjAWkYsc2ZbmL7FTicGY1zFCzXibCkezdlzsn96xl5mk="
+                    }
+                }
+            }
+        },
+        "protNFe": {
+            "@versao": "4.00",
+            "infProt": {
+                "tpAmb": "1",
+                "verAplic": "SP_NFE_PL009_V4",
+                "chNFe": "35231215436940000286550080357653071189793758",
+                "dhRecbto": "2023-12-22T13:59:00-03:00",
+                "nProt": "135232280335268",
+                "digVal": "CMi2qUAJ3F2XFa+vM0FPhwaLFUA=",
+                "cStat": "100",
+                "xMotivo": "Autorizado o uso da NF-e"
+            }
+        }
+    }
+}

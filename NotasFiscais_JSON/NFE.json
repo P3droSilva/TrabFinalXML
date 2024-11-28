@@ -1,0 +1,228 @@
+{
+    "nfeProc": {
+        "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+        "@versao": "4.00",
+        "NFe": {
+            "infNFe": {
+                "@Id": "NFe43241115436940001177550010245711271196272148",
+                "@versao": "4.00",
+                "ide": {
+                    "cUF": "43",
+                    "cNF": "19627214",
+                    "natOp": "Venda de merc adquirida ou recebida de terceiros",
+                    "mod": "55",
+                    "serie": "1",
+                    "nNF": "24571127",
+                    "dhEmi": "2024-11-20T21:37:31-03:00",
+                    "tpNF": "1",
+                    "idDest": "1",
+                    "cMunFG": "4313375",
+                    "tpImp": "1",
+                    "tpEmis": "1",
+                    "cDV": "8",
+                    "tpAmb": "1",
+                    "finNFe": "1",
+                    "indFinal": "1",
+                    "indPres": "2",
+                    "indIntermed": "0",
+                    "procEmi": "0",
+                    "verProc": "1.0"
+                },
+                "emit": {
+                    "CNPJ": "15436940001177",
+                    "xNome": "AMAZON SERVICOS DE VAREJO DO BRASIL LTDA",
+                    "xFant": "AMAZON.COM.BR",
+                    "enderEmit": {
+                        "xLgr": "ESTRADA DA PEDREIRA PAVILHAO 5",
+                        "nro": "64",
+                        "xBairro": "PEDREIRA",
+                        "cMun": "4313375",
+                        "xMun": "NOVA SANTA RITA",
+                        "UF": "RS",
+                        "CEP": "92480000",
+                        "cPais": "1058",
+                        "xPais": "BRASIL"
+                    },
+                    "IE": "3820025709",
+                    "CRT": "3"
+                },
+                "dest": {
+                    "CPF": "***CPF CENSURADO***",
+                    "xNome": "Pedro Henrique Hinerasky",
+                    "enderDest": {
+                        "xLgr": "Rua Francisco Lameira",
+                        "nro": "580",
+                        "xCpl": "Ap 101 Duque de Caxias",
+                        "xBairro": "Duque de Caxias",
+                        "cMun": "4316907",
+                        "xMun": "Santa Maria",
+                        "UF": "RS",
+                        "CEP": "97070360",
+                        "cPais": "1058",
+                        "fone": "5555997111170"
+                    },
+                    "indIEDest": "9"
+                },
+                "det": {
+                    "@nItem": "1",
+                    "prod": {
+                        "cProd": "B07BSL81YD",
+                        "cEAN": "7908010112535",
+                        "xProd": "Jogo War Edicao Especial",
+                        "NCM": "95030099",
+                        "CFOP": "5102",
+                        "uCom": "UN",
+                        "qCom": "1",
+                        "vUnCom": "122.3400000000",
+                        "vProd": "122.34",
+                        "cEANTrib": "7908010112535",
+                        "uTrib": "UN",
+                        "qTrib": "1",
+                        "vUnTrib": "122.3400000000",
+                        "vDesc": "10.00",
+                        "indTot": "1",
+                        "xPed": "344247956472301",
+                        "nFCI": "2B38D86C-5BF5-4C42-A71E-432A58A4A762"
+                    },
+                    "imposto": {
+                        "vTotTrib": "46.28",
+                        "ICMS": {
+                            "ICMS00": {
+                                "orig": "5",
+                                "CST": "00",
+                                "modBC": "3",
+                                "vBC": "112.34",
+                                "pICMS": "17.0000",
+                                "vICMS": "19.10"
+                            }
+                        },
+                        "IPI": {
+                            "cEnq": "999",
+                            "IPINT": {
+                                "CST": "53"
+                            }
+                        },
+                        "PIS": {
+                            "PISAliq": {
+                                "CST": "01",
+                                "vBC": "93.24",
+                                "pPIS": "1.6500",
+                                "vPIS": "1.54"
+                            }
+                        },
+                        "COFINS": {
+                            "COFINSAliq": {
+                                "CST": "01",
+                                "vBC": "93.24",
+                                "pCOFINS": "7.6000",
+                                "vCOFINS": "7.09"
+                            }
+                        }
+                    }
+                },
+                "total": {
+                    "ICMSTot": {
+                        "vBC": "112.34",
+                        "vICMS": "19.10",
+                        "vICMSDeson": "0.00",
+                        "vFCP": "0.00",
+                        "vBCST": "0.00",
+                        "vST": "0.00",
+                        "vFCPST": "0.00",
+                        "vFCPSTRet": "0.00",
+                        "vProd": "122.34",
+                        "vFrete": "0.00",
+                        "vSeg": "0.00",
+                        "vDesc": "10.00",
+                        "vII": "0.00",
+                        "vIPI": "0.00",
+                        "vIPIDevol": "0.00",
+                        "vPIS": "1.54",
+                        "vCOFINS": "7.09",
+                        "vOutro": "0.00",
+                        "vNF": "112.34",
+                        "vTotTrib": "46.28"
+                    }
+                },
+                "transp": {
+                    "modFrete": "0",
+                    "transporta": null
+                },
+                "pag": {
+                    "detPag": {
+                        "indPag": "0",
+                        "tPag": "03",
+                        "vPag": "112.34"
+                    }
+                },
+                "infAdic": {
+                    "infCpl": "Valor aproximado dos tributos: Federal - R$ 18.20 (16.20%); Estadual - R$ 28.09 (25.00%); Municipal - R$ 0.00 (0.00%) - Fonte IBPT. A/C Lorenzo Pauli Saccol. Numero do pedido da compra: 701-6350124-2671411",
+                    "obsCont": [
+                        {
+                            "@xCampo": "icmsTransporte",
+                            "xTexto": "1"
+                        },
+                        {
+                            "@xCampo": "nome_dest",
+                            "xTexto": "A/C Lorenzo Pauli Saccol"
+                        }
+                    ]
+                },
+                "compra": null,
+                "infRespTec": {
+                    "CNPJ": "15436940000103",
+                    "xContato": "Amazon Servicos de Varejo do Brasil Ltda.",
+                    "email": "i2c-br-team-ext@amazon.com",
+                    "fone": "08000380541"
+                }
+            },
+            "Signature": {
+                "@xmlns": "http://www.w3.org/2000/09/xmldsig#",
+                "SignedInfo": {
+                    "CanonicalizationMethod": {
+                        "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                    },
+                    "SignatureMethod": {
+                        "@Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                    },
+                    "Reference": {
+                        "@URI": "#NFe43241115436940001177550010245711271196272148",
+                        "Transforms": {
+                            "Transform": [
+                                {
+                                    "@Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                },
+                                {
+                                    "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                                }
+                            ]
+                        },
+                        "DigestMethod": {
+                            "@Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+                        },
+                        "DigestValue": "Nv9piNvwdKCzJerjsaARyMSJeZA="
+                    }
+                },
+                "SignatureValue": "hjz6pLBC6Wv6aFTYHpKRPCdG3CtSENaYoquSgiztbQhmhso+rxRWImVmjVxqN+5W42HB34PYIYYo\r\n7sURowNLl3iWsPJPAaodEAWK5KZyA3LK1z/C9tyq/K0+E7FZMEgeHlZNG5qMSefiuSERrxL+GPlj\r\n0J87LK+CJ3ZlzVJeDj2CrvO4qwg7xTgMzx3NYSL+gODVB5IC7fi7shi66UbCX+xeG87spKMeOHPV\r\nJ2JN4CEoMR8/uJk4hfaQxmO9So2z2BbuyIpfDyuHuEZwZkah2rApWyEtCHXqKPnCZY0NoKiLwkGV\r\nlS2j4odiJZkHybnn8X4z0G0DC/1meimp0TQYgA==",
+                "KeyInfo": {
+                    "X509Data": {
+                        "X509Certificate": "MIIHRzCCBS+gAwIBAgIIEd4kBAR2xPAwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR\r\nBgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M\r\nVVRJIE11bHRpcGxhIHY1MB4XDTI0MDYwNDIxMzkwMFoXDTI1MDYwNDIxMzkwMFowgfUxCzAJBgNV\r\nBAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJTUDESMBAGA1UEBxMJU2FvIFBh\r\ndWxvMR4wHAYDVQQLExVBQyBTT0xVVEkgTXVsdGlwbGEgdjUxFzAVBgNVBAsTDjA5NDYxNjQ3MDAw\r\nMTk1MRkwFwYDVQQLExBWaWRlb2NvbmZlcmVuY2lhMRowGAYDVQQLExFDZXJ0aWZpY2FkbyBQSiBB\r\nMTFAMD4GA1UEAxM3QU1BWk9OIFNFUlZJQ09TIERFIFZBUkVKTyBETyBCUkFTSUwgTFREQToxNTQz\r\nNjk0MDAwMDEwMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIdong7q//nFsmN4UTGH\r\nZJUY3zI9bXpvAeUn+S3ipZGbUVdeHcGAt8b9kgk7pSyegtb540hA12JYKova5hkeutPOhrlPvL56\r\npBYNMWAtcQRL/LdPV1uuPyBVZml4MLVW9jDlX7Q6HzXE7+esLUm8TfgJj6H0KclO05Op3fd3CcG4\r\nZh+BVkYF6Ra0JjfJ2Fwe3i5ANTZPFK7J8NAUBj+2MvNkqIHTbK1lo1xrMPhVm5+OU0oVrv9RoY/j\r\nWILGD5HZHllN/jHQeOpjCk5ZnPmAAp5CPQXoG4Z5lhu5bJM4J+uFWlURc95AMmzxIH0zjkf63M4C\r\nTYmXriDKcUk8EOWawU0CAwEAAaOCAnQwggJwMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUxVLtJYAJ\r\n35yCyJ9Hxt20XzHdubEwVAYIKwYBBQUHAQEESDBGMEQGCCsGAQUFBzAChjhodHRwOi8vY2NkLmFj\r\nc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LnA3YjCBrwYDVR0RBIGnMIGk\r\ngRFndWlwZWxAYW1hem9uLmNvbaAhBgVgTAEDAqAYExZEQU5JRUwgTUFaSU5JIERBIFJPQ0hBoBkG\r\nBWBMAQMDoBATDjE1NDM2OTQwMDAwMTAzoDgGBWBMAQMEoC8TLTA3MDcxOTc4MDQzMDY2ODE3MTgw\r\nMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAXBgVgTAEDB6AOEwwwMDAwMDAwMDAwMDAwXQYDVR0g\r\nBFYwVDBSBgZgTAECASYwSDBGBggrBgEFBQcCARY6aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIv\r\nZG9jcy9kcGMtYWMtc29sdXRpLW11bHRpcGxhLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYB\r\nBQUHAwQwgYwGA1UdHwSBhDCBgTA+oDygOoY4aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvbGNy\r\nL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5jcmwwP6A9oDuGOWh0dHA6Ly9jY2QyLmFjc29sdXRpLmNv\r\nbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LmNybDAdBgNVHQ4EFgQUvl7IN8KSMptN1Ldi\r\nbbgT7Qnd+gcwDgYDVR0PAQH/BAQDAgXgMA0GCSqGSIb3DQEBCwUAA4ICAQBZ2yWvEuoS1QhO9KIs\r\n/PVRra9l7LP5HWhO57DfZK2Dnynv3T+/GEtQ61d1RyATSaDjoCxhV83GrOg64HpTZ5lLBAYRVcZO\r\ncgFHf8A1gGU5mJsLou5Nlf5YT0STrdVtHnNctHOQCmPNepXvmsE7PvPyArjhDtQh+VC64Bx2Gue5\r\nQvsT+ijGR9TYSQyp09hNp+IRFpgNqcuMti4yi+6GcvF4EhnR3rpLeMw6MZYBOOlLZwjVod6WjiDS\r\n0p9lyZ91C5OcPB/m7yGAZJr7ap0atNHxSBj9X/CUlxtFYrWkDP9pUG26ny2exujCy4J6wDpjur5l\r\nVYz5RRbNiaq+D0vQe9XWk2knYZ8NdQrEUd9RsD5auatfEW8biTOR4amiv4Y61Ijk/ROYOMhK44cL\r\nGPIGc2nMyS0e905O9TY5OnYRCLNvN8ifEN3/tg1LNvQu+yD6+uo287JJHFQ34I52GUMRr0G9E2Eu\r\neYx2gz0GhBUfqvaGiKxrjZLCvYSfXS5muR9Bg+VMh6b7n8qAbTm2ufrxNkVvbbjq+HQaxuhiG73b\r\nxOIP0XppvsrBrv2f55SgADoUz7ztNg2MDKrqfzbz4CFkwh2i3Kbze3kOX6PEnn0t9/VyMrrpdoH6\r\nLL+UUxYXpM2T0K/g4GsKZMruZcbU0M5VM340Hce8p/jxK/qikgvhYa9e5g=="
+                    }
+                }
+            }
+        },
+        "protNFe": {
+            "@versao": "4.00",
+            "infProt": {
+                "tpAmb": "1",
+                "verAplic": "RS2410241035DR",
+                "chNFe": "43241115436940001177550010245711271196272148",
+                "dhRecbto": "2024-11-20T21:37:37-03:00",
+                "nProt": "243240200380080",
+                "digVal": "Nv9piNvwdKCzJerjsaARyMSJeZA=",
+                "cStat": "100",
+                "xMotivo": "Autorizado o uso da NF-e"
+            }
+        }
+    }
+}

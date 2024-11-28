@@ -1,0 +1,229 @@
+{
+    "nfeProc": {
+        "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+        "@versao": "4.00",
+        "NFe": {
+            "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+            "infNFe": {
+                "@versao": "4.00",
+                "@Id": "NFe43240841468226000107550010000010641197157715",
+                "ide": {
+                    "cUF": "43",
+                    "cNF": "19715771",
+                    "natOp": "DEVOLUCAO DE VENDA (REVENDA)",
+                    "mod": "55",
+                    "serie": "1",
+                    "nNF": "1064",
+                    "dhEmi": "2024-08-22T18:31:52-03:00",
+                    "dhSaiEnt": "2024-08-22T18:31:52-03:00",
+                    "tpNF": "0",
+                    "idDest": "1",
+                    "cMunFG": "4316907",
+                    "tpImp": "1",
+                    "tpEmis": "1",
+                    "cDV": "5",
+                    "tpAmb": "1",
+                    "finNFe": "4",
+                    "indFinal": "1",
+                    "indPres": "0",
+                    "procEmi": "0",
+                    "verProc": "7.9.0 SP 4.002|3.28."
+                },
+                "emit": {
+                    "CNPJ": "41468226000107",
+                    "xNome": "TRACK AND FIELD LTDA",
+                    "xFant": "SHOP PRACA NOVA",
+                    "enderEmit": {
+                        "xLgr": "EST BR158",
+                        "nro": "2885",
+                        "xCpl": "LOJA 1132A E 1133",
+                        "xBairro": "PARQUE PINHEIRO MACHADO",
+                        "cMun": "4316907",
+                        "xMun": "SANTA MARIA",
+                        "UF": "RS",
+                        "CEP": "97030620",
+                        "cPais": "1058",
+                        "xPais": "BRASIL"
+                    },
+                    "IE": "1090411550",
+                    "CRT": "1"
+                },
+                "dest": {
+                    "CPF": "***CPF CENSURADO***",
+                    "xNome": "Ana Inah Toniolo Da Silva",
+                    "enderDest": {
+                        "xLgr": "Rodovia Br158",
+                        "nro": "22",
+                        "xCpl": "22",
+                        "xBairro": "Pinheiro Machado",
+                        "cMun": "4316907",
+                        "xMun": "SANTA MARIA",
+                        "UF": "RS",
+                        "CEP": "97030620",
+                        "cPais": "1058",
+                        "xPais": "BRASIL",
+                        "fone": "5599260350"
+                    },
+                    "indIEDest": "9",
+                    "email": "anainahts@gmail.com"
+                },
+                "det": {
+                    "@nItem": "1",
+                    "prod": {
+                        "cProd": "TF0410632570P",
+                        "cEAN": "7909563161971",
+                        "xProd": "CAM F MC OUTLAST CACTUS P",
+                        "NCM": "61099000",
+                        "CEST": "2805900",
+                        "CFOP": "1202",
+                        "uCom": "PC",
+                        "qCom": "1.0000",
+                        "vUnCom": "169.9000000000",
+                        "vProd": "169.90",
+                        "cEANTrib": "7909563161971",
+                        "uTrib": "PC",
+                        "qTrib": "1.0000",
+                        "vUnTrib": "169.9000000000",
+                        "indTot": "1"
+                    },
+                    "imposto": {
+                        "vTotTrib": "0.00",
+                        "ICMS": {
+                            "ICMSSN102": {
+                                "orig": "0",
+                                "CSOSN": "102"
+                            }
+                        },
+                        "IPI": {
+                            "cEnq": "999",
+                            "IPINT": {
+                                "CST": "03"
+                            }
+                        },
+                        "PIS": {
+                            "PISOutr": {
+                                "CST": "99",
+                                "vBC": "0.00",
+                                "pPIS": "0.0000",
+                                "vPIS": "0.00"
+                            }
+                        },
+                        "COFINS": {
+                            "COFINSOutr": {
+                                "CST": "99",
+                                "vBC": "0.00",
+                                "pCOFINS": "0.0000",
+                                "vCOFINS": "0.00"
+                            }
+                        }
+                    },
+                    "impostoDevol": {
+                        "pDevol": "100.00",
+                        "IPI": {
+                            "vIPIDevol": "0.00"
+                        }
+                    }
+                },
+                "total": {
+                    "ICMSTot": {
+                        "vBC": "0.00",
+                        "vICMS": "0.00",
+                        "vICMSDeson": "0.00",
+                        "vFCPUFDest": "0.00",
+                        "vICMSUFDest": "0.00",
+                        "vICMSUFRemet": "0.00",
+                        "vFCP": "0.00",
+                        "vBCST": "0.00",
+                        "vST": "0.00",
+                        "vFCPST": "0.00",
+                        "vFCPSTRet": "0.00",
+                        "vProd": "169.90",
+                        "vFrete": "0.00",
+                        "vSeg": "0.00",
+                        "vDesc": "0.00",
+                        "vII": "0.00",
+                        "vIPI": "0.00",
+                        "vIPIDevol": "0.00",
+                        "vPIS": "0.00",
+                        "vCOFINS": "0.00",
+                        "vOutro": "0.00",
+                        "vNF": "169.90",
+                        "vTotTrib": "0.00"
+                    }
+                },
+                "transp": {
+                    "modFrete": "9",
+                    "vol": {
+                        "qVol": "1",
+                        "pesoL": "0.097",
+                        "pesoB": "0.097"
+                    }
+                },
+                "pag": {
+                    "detPag": {
+                        "tPag": "90",
+                        "vPag": "0.00"
+                    }
+                },
+                "infAdic": {
+                    "infAdFisco": "MD5:21D4C0F53B03656D4F75BB9EABED5DF4"
+                },
+                "infRespTec": {
+                    "CNPJ": "54517628000198",
+                    "xContato": "Linx Sistemas e Consultoria LTDA",
+                    "email": "depto.homologacao@linx.com.br",
+                    "fone": "51992801474"
+                }
+            },
+            "Signature": {
+                "@xmlns": "http://www.w3.org/2000/09/xmldsig#",
+                "SignedInfo": {
+                    "CanonicalizationMethod": {
+                        "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                    },
+                    "SignatureMethod": {
+                        "@Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                    },
+                    "Reference": {
+                        "@URI": "#NFe43240841468226000107550010000010641197157715",
+                        "Transforms": {
+                            "Transform": [
+                                {
+                                    "@Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                },
+                                {
+                                    "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                                }
+                            ]
+                        },
+                        "DigestMethod": {
+                            "@Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+                        },
+                        "DigestValue": "IoXMJpA+2wupob+3KlMu30lwNNo="
+                    }
+                },
+                "SignatureValue": "Spy90zOwl+E1IAKGxaoYd5JAsFMZDp51jixyGSp8DtoQCKWY8jfuiJEFhfFcS80TvPSzSRnFLHTJ86xOepCkmhiy7FKTDKKAaXESP+E6pXWvUvun7U8RGaHLvTcvXJXwVz0ZlWvreRg8OEitak8kkjQODgJFrBF/Zov4BMSfsiHBuFM1PDMzDkusUQttoeMqaJu9QMc5Gw0XaU54p/0ncvJKWe7kv/t40mUSzuy/g9rPaNBkpUcPbEBDLhbhkZTd/dkqm6hMWrF1jlAuJHdxJuwoLbXMmLtY/waCm/4LZAnOekvDGhJGWkORSzJqJ/CUovacJ6TqifzBFSnpD4Or+A==",
+                "KeyInfo": {
+                    "X509Data": {
+                        "X509Certificate": "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"
+                    }
+                }
+            }
+        },
+        "protNFe": {
+            "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+            "@versao": "4.00",
+            "infProt": {
+                "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+                "tpAmb": "1",
+                "verAplic": "RS2405142121DR",
+                "chNFe": "43240841468226000107550010000010641197157715",
+                "dhRecbto": "2024-08-22T18:32:09-03:00",
+                "nProt": "243240103208780",
+                "digVal": "IoXMJpA+2wupob+3KlMu30lwNNo=",
+                "cStat": "100",
+                "xMotivo": "Autorizado o uso da NF-e"
+            }
+        }
+    }
+}

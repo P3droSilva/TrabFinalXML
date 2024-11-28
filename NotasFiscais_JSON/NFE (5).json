@@ -1,0 +1,246 @@
+{
+    "nfeProc": {
+        "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+        "@versao": "4.00",
+        "NFe": {
+            "infNFe": {
+                "@Id": "NFe31231015436940000952550010236338291174943625",
+                "@versao": "4.00",
+                "ide": {
+                    "cUF": "31",
+                    "cNF": "17494362",
+                    "natOp": "Venda de merc adq ou rec terc, destinada a nao contribuinte",
+                    "mod": "55",
+                    "serie": "1",
+                    "nNF": "23633829",
+                    "dhEmi": "2023-10-17T21:50:41-03:00",
+                    "tpNF": "1",
+                    "idDest": "2",
+                    "cMunFG": "3106705",
+                    "tpImp": "1",
+                    "tpEmis": "1",
+                    "cDV": "5",
+                    "tpAmb": "1",
+                    "finNFe": "1",
+                    "indFinal": "1",
+                    "indPres": "2",
+                    "indIntermed": "0",
+                    "procEmi": "0",
+                    "verProc": "1.0"
+                },
+                "emit": {
+                    "CNPJ": "15436940000952",
+                    "xNome": "AMAZON SERVICOS DE VAREJO DO BRASIL LTDA",
+                    "xFant": "AMAZON.COM.BR",
+                    "enderEmit": {
+                        "xLgr": "AVENIDA JUIZ MARCO TULIO ISAAC",
+                        "nro": "7000",
+                        "xBairro": "CHACARA",
+                        "cMun": "3106705",
+                        "xMun": "BETIM",
+                        "UF": "MG",
+                        "CEP": "32670250",
+                        "cPais": "1058",
+                        "xPais": "BRASIL"
+                    },
+                    "IE": "0026685900504",
+                    "IEST": "9000046136",
+                    "CRT": "3"
+                },
+                "dest": {
+                    "CPF": "***CPF CENSURADO***",
+                    "xNome": "Mariana Toniolo",
+                    "enderDest": {
+                        "xLgr": "Rua Doutor Jose Mariano da Rocha",
+                        "nro": "81",
+                        "xCpl": "303 Nossa Senhora de Lourdes",
+                        "xBairro": "Nossa Senhora de Lourdes",
+                        "cMun": "4316907",
+                        "xMun": "Santa Maria",
+                        "UF": "RS",
+                        "CEP": "97060180",
+                        "cPais": "1058",
+                        "fone": "55999922959"
+                    },
+                    "indIEDest": "9"
+                },
+                "det": {
+                    "@nItem": "1",
+                    "prod": {
+                        "cProd": "B09KMW2N9Z",
+                        "cEAN": "0045496883492",
+                        "xProd": "Console Nintendo Switch Oled - Branco (Nacional)",
+                        "NCM": "95045000",
+                        "CEST": "2107900",
+                        "EXTIPI": "02",
+                        "CFOP": "6108",
+                        "uCom": "UN",
+                        "qCom": "1",
+                        "vUnCom": "2228.01",
+                        "vProd": "2228.01",
+                        "cEANTrib": "0045496883492",
+                        "uTrib": "UN",
+                        "qTrib": "1",
+                        "vUnTrib": "2228.01",
+                        "indTot": "1",
+                        "xPed": "236881061527301"
+                    },
+                    "imposto": {
+                        "vTotTrib": "953.59",
+                        "ICMS": {
+                            "ICMS00": {
+                                "orig": "2",
+                                "CST": "00",
+                                "modBC": "3",
+                                "vBC": "2228.01",
+                                "pICMS": "4.0000",
+                                "vICMS": "89.12"
+                            }
+                        },
+                        "IPI": {
+                            "cEnq": "999",
+                            "IPINT": {
+                                "CST": "53"
+                            }
+                        },
+                        "PIS": {
+                            "PISAliq": {
+                                "CST": "01",
+                                "vBC": "2228.01",
+                                "pPIS": "1.6500",
+                                "vPIS": "36.76"
+                            }
+                        },
+                        "COFINS": {
+                            "COFINSAliq": {
+                                "CST": "01",
+                                "vBC": "2228.01",
+                                "pCOFINS": "7.6000",
+                                "vCOFINS": "169.33"
+                            }
+                        },
+                        "ICMSUFDest": {
+                            "vBCUFDest": "2228.01",
+                            "vBCFCPUFDest": "0.00",
+                            "pFCPUFDest": "0.0000",
+                            "pICMSUFDest": "17.0000",
+                            "pICMSInter": "4.00",
+                            "pICMSInterPart": "100.0000",
+                            "vFCPUFDest": "0.00",
+                            "vICMSUFDest": "289.64",
+                            "vICMSUFRemet": "0.00"
+                        }
+                    },
+                    "infAdProd": "Ao aceitar essa mercadoria, voce autoriza a empresa vendedora a recuperar tributos incidentes nessa operacao, conforme legislacao tributaria aplicavel."
+                },
+                "total": {
+                    "ICMSTot": {
+                        "vBC": "2228.01",
+                        "vICMS": "89.12",
+                        "vICMSDeson": "0.00",
+                        "vFCPUFDest": "0.00",
+                        "vICMSUFDest": "289.64",
+                        "vICMSUFRemet": "0.00",
+                        "vFCP": "0.00",
+                        "vBCST": "0.00",
+                        "vST": "0.00",
+                        "vFCPST": "0.00",
+                        "vFCPSTRet": "0.00",
+                        "vProd": "2228.01",
+                        "vFrete": "0.00",
+                        "vSeg": "0.00",
+                        "vDesc": "0.00",
+                        "vII": "0.00",
+                        "vIPI": "0.00",
+                        "vIPIDevol": "0.00",
+                        "vPIS": "36.76",
+                        "vCOFINS": "169.33",
+                        "vOutro": "0.00",
+                        "vNF": "2228.01",
+                        "vTotTrib": "953.59"
+                    }
+                },
+                "transp": {
+                    "modFrete": "0",
+                    "transporta": null
+                },
+                "pag": {
+                    "detPag": [
+                        {
+                            "indPag": "0",
+                            "tPag": "19",
+                            "vPag": "130.00"
+                        },
+                        {
+                            "indPag": "1",
+                            "tPag": "03",
+                            "vPag": "2098.01"
+                        }
+                    ]
+                },
+                "infAdic": {
+                    "infAdFisco": "De acordo com a cls 6, par 2 do Convenio ICMS 236 2021 o ICMS devido ao destino sera recolhido ate o 15 dia do mes subsequente, em razao da inscricao no Cadastro de Contribuintes do ICMS no referido Estado.",
+                    "infCpl": "Valor aproximado dos tributos: Federal - R$ 552.55 (24.80%); Estadual - R$ 401.04 (18.00%); Municipal - R$ 0.00 (0.00%) - Fonte IBPT. EC 87/2015  ASIN: B09KMW2N9Z: DIFAL da UF destino R$ 289.64 + FCP R$ 0.00; DIFAL da UF Origem R$ 0.00. Numero do pedido da compra: 701-4051930-1608267",
+                    "obsCont": {
+                        "@xCampo": "icmsTransporte",
+                        "xTexto": "1"
+                    }
+                },
+                "compra": null,
+                "infRespTec": {
+                    "CNPJ": "15436940000103",
+                    "xContato": "Amazon Servicos de Varejo do Brasil Ltda.",
+                    "email": "i2c-br-team-ext@amazon.com",
+                    "fone": "08000380541"
+                }
+            },
+            "Signature": {
+                "@xmlns": "http://www.w3.org/2000/09/xmldsig#",
+                "SignedInfo": {
+                    "CanonicalizationMethod": {
+                        "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                    },
+                    "SignatureMethod": {
+                        "@Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                    },
+                    "Reference": {
+                        "@URI": "#NFe31231015436940000952550010236338291174943625",
+                        "Transforms": {
+                            "Transform": [
+                                {
+                                    "@Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                },
+                                {
+                                    "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                                }
+                            ]
+                        },
+                        "DigestMethod": {
+                            "@Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+                        },
+                        "DigestValue": "/p3BslGSUdrsrGXgWiNY9Ge9Sc0="
+                    }
+                },
+                "SignatureValue": "BC2hcEbtKhWKB7gZomoYV29y5w+VDLhzCjPYG6apgvUPfuse8XsKYDg0rY8+ot2UEm0W6NC9d1Pg\r\n5I/lRPLtfgh2v16ogL9ugWts1sKD3BJ5p2nACUHFkzZsEYUBjwoUKyuMJXnvobOanILz8h11haPv\r\nQQjY7jqIinu1ycxw6hnQZKvKzIAcyE0+tPHw/w0fUnecubJRwsAYlLgpvdT9ZGOuJ/cscfS3tzoX\r\nwE0OlUpfYaunQ2ZiMUhJ3zTZoMSvlwXElj8qS1CAptEVSYypFoQGipePbL6r1lyelbUldcnBo/5c\r\niB8DMUNcSv7evyZgt1Srd+qpBDqVT3+yE7QMUg==",
+                "KeyInfo": {
+                    "X509Data": {
+                        "X509Certificate": "MIIIFTCCBf2gAwIBAgIQf8Iwos2/s1r84T8qs1RQRzANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQG\r\nEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh\r\nIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc1MB4X\r\nDTIzMDIxNTExNTIzMFoXDTI0MDIxNTExNTIzMFowggEJMQswCQYDVQQGEwJCUjETMBEGA1UECgwK\r\nSUNQLUJyYXNpbDELMAkGA1UECAwCU1AxEjAQBgNVBAcMCVNhbyBQYXVsbzEZMBcGA1UECwwQVmlk\r\nZW9Db25mZXJlbmNpYTEXMBUGA1UECwwOMzI4MDA5NDkwMDAxNjIxNjA0BgNVBAsMLVNlY3JldGFy\r\naWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEWMBQGA1UECwwNUkZCIGUtQ05Q\r\nSiBBMTFAMD4GA1UEAww3QU1BWk9OIFNFUlZJQ09TIERFIFZBUkVKTyBETyBCUkFTSUwgTFREQTox\r\nNTQzNjk0MDAwMDEwMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALsSPFGOQ1lij7qJ\r\n6aGKEmoSM8s4F11aA+mIFSolOxrG+JRacfkVySqOdQvD/WLppT8gc1WNL1zr2fY7493IpG9e9/tK\r\nkAmqrxfgTbxdWidgZEKy+1qxre2yC6Rg6oMtISIMmOY6sM4QFHFznot32mvUQwyKYt/2f/W7tsGF\r\ncgFe/ZuI5Tn+rqHdrJlSmbN3v0epvK5MCyMB3Ytsw++p7xelXJsR1bia3kcWRERFFKsPgPBM33By\r\n0omSP0QUHkPLcJ8PN874nPtsB42Zz5zHhyCfRBa5qBD8SHyeISG8X2sxmkiF1bs2DTfYDrRMNEst\r\ncYro0aMtQnVjphmgUO0STxUCAwEAAaOCAwYwggMCMIG1BgNVHREEga0wgaqgPQYFYEwBAwSgNAQy\r\nMDcwNzE5NzgwNDMwNjY4MTcxODAwMDAwMDAwMDAwMDAwMDAwMTA1NTI2MjE0SUZQUkqgIQYFYEwB\r\nAwKgGAQWREFOSUVMIE1BWklOSSBEQSBST0NIQaAZBgVgTAEDA6AQBA4xNTQzNjk0MDAwMDEwM6AX\r\nBgVgTAEDB6AOBAwwMDAwMDAwMDAwMDCBEnRlY2hpb2FAYW1hem9uLmNvbTAJBgNVHRMEAjAAMB8G\r\nA1UdIwQYMBaAFFN9f52+0WHQILran+OJpxNzWM1CMH8GA1UdIAR4MHYwdAYGYEwBAgEMMGowaAYI\r\nKwYBBQUHAgEWXGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8v\r\nZHBjL0FDX0NlcnRpc2lnbl9SRkIvRFBDX0FDX0NlcnRpc2lnbl9SRkIucGRmMIG8BgNVHR8EgbQw\r\ngbEwV6BVoFOGUWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8v\r\nbGNyL0FDQ2VydGlzaWduUkZCRzUvTGF0ZXN0Q1JMLmNybDBWoFSgUoZQaHR0cDovL2ljcC1icmFz\r\naWwub3V0cmFsY3IuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnblJGQkc1L0xhdGVz\r\ndENSTC5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCB\r\nrAYIKwYBBQUHAQEEgZ8wgZwwXwYIKwYBBQUHMAKGU2h0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2ln\r\nbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9SRkJfRzUucDdj\r\nMDkGCCsGAQUFBzABhi1odHRwOi8vb2NzcC1hYy1jZXJ0aXNpZ24tcmZiLmNlcnRpc2lnbi5jb20u\r\nYnIwDQYJKoZIhvcNAQELBQADggIBAJpUG5CXR6GH1u4ozAZRWaTad31h0NZ5xJNBYCtAt17GfCzN\r\n0EPF8x+la3VjEct29S564aE1PyfZAICen6WJpnAaWmm3zuorNUIENVKqygUDo9barZOXKCRT5ek9\r\n283FL2eMIR6AX8xQsb68Ki44B7GsbqjuTbH9H8RDCv6AwZFVI5TRwO7nD5UjWVjuvR9pYVVusd1p\r\nIOxHIa6uG2oCZ7FjR+M9SBfXzEe2kj92dXXt6jV0Hhf9HQGT+QjJTeQVHG839oqWft3Y3+nV9EiV\r\n0Z+aXjx2UwsuLYSTfIPdWahSLV5eblJyzd03aCD3Odb2baqO3RoHH8kBIhOYOqxyUsbJcJGfTBsH\r\nCQmd85iVskTHFHHWJWMWuof6bXRbiaGoG6dHyMVidJZ0jB4HoDD7V6nV/uN/kBanwjRx+nzY5YJL\r\nopH9MH0Xx6bKuYMPM8PX2+aAmz5ZvJgVxrRuHo/i56us1IOr/XSRuum0eYNG/gB4fE06ttQeg3AA\r\nd0mFpmcE2XSmM99ZTRcFzIeqcnmOpO1T9m/nAm9ZFRwm/6GK+45ux//1/qvM1zF6e83RR8CQVrFC\r\nxDJ76PS4TVP7wSO9QF4h5lMVHjD+Zr4nh2uSelEa/E02zB/VjoOe8+6rVJRFtW1A387iqM2Qnxpy\r\nCZIANPfVlaYowI7cjgx8BDeg64xW"
+                    }
+                }
+            }
+        },
+        "protNFe": {
+            "@versao": "4.00",
+            "infProt": {
+                "tpAmb": "1",
+                "verAplic": "J-3.1.44",
+                "chNFe": "31231015436940000952550010236338291174943625",
+                "dhRecbto": "2023-10-17T21:50:44-03:00",
+                "nProt": "131235623513069",
+                "digVal": "/p3BslGSUdrsrGXgWiNY9Ge9Sc0=",
+                "cStat": "100",
+                "xMotivo": "Autorizado o uso da NF-e"
+            }
+        }
+    }
+}

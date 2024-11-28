@@ -1,0 +1,255 @@
+{
+    "nfeProc": {
+        "@versao": "4.00",
+        "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+        "NFe": {
+            "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+            "infNFe": {
+                "@Id": "NFe43240392754738002025654020000393981414428040",
+                "@versao": "4.00",
+                "ide": {
+                    "cUF": "43",
+                    "cNF": "41442804",
+                    "natOp": "VENDA DE MERCADORIA CONFORME CFOP",
+                    "mod": "65",
+                    "serie": "402",
+                    "nNF": "39398",
+                    "dhEmi": "2024-03-16T12:26:46-03:00",
+                    "tpNF": "1",
+                    "idDest": "1",
+                    "cMunFG": "4316907",
+                    "tpImp": "5",
+                    "tpEmis": "1",
+                    "cDV": "0",
+                    "tpAmb": "1",
+                    "finNFe": "1",
+                    "indFinal": "1",
+                    "indPres": "1",
+                    "procEmi": "0",
+                    "verProc": "NFC-e 1.0.61.00Ce"
+                },
+                "emit": {
+                    "CNPJ": "92754738002025",
+                    "xNome": "LOJAS RENNER S.A",
+                    "enderEmit": {
+                        "xLgr": "Doutor Bozzano",
+                        "nro": "1233",
+                        "xBairro": "Centro",
+                        "cMun": "4316907",
+                        "xMun": "Santa Maria",
+                        "UF": "RS",
+                        "CEP": "97015004",
+                        "cPais": "1058",
+                        "xPais": "BRASIL",
+                        "fone": "5521013000"
+                    },
+                    "IE": "1090083553",
+                    "CRT": "3"
+                },
+                "dest": {
+                    "CPF": "***CPF CENSURADO***",
+                    "indIEDest": "9",
+                    "email": "anainahts@gmail.com"
+                },
+                "det": [
+                    {
+                        "@nItem": "1",
+                        "prod": {
+                            "cProd": "545950524",
+                            "cEAN": "SEM GTIN",
+                            "xProd": "Mascara Capilar Super Hidratante Morte S",
+                            "NCM": "33059000",
+                            "CEST": "2002000",
+                            "CFOP": "5405",
+                            "uCom": "UN",
+                            "qCom": "1.0000",
+                            "vUnCom": "35.9000000000",
+                            "vProd": "35.90",
+                            "cEANTrib": "SEM GTIN",
+                            "uTrib": "UN",
+                            "qTrib": "1.0000",
+                            "vUnTrib": "35.9000",
+                            "indTot": "1"
+                        },
+                        "imposto": {
+                            "ICMS": {
+                                "ICMS60": {
+                                    "orig": "0",
+                                    "CST": "60",
+                                    "pRedBCEfet": "0.0000",
+                                    "vBCEfet": "35.90",
+                                    "pICMSEfet": "25.0000",
+                                    "vICMSEfet": "8.98"
+                                }
+                            },
+                            "PIS": {
+                                "PISAliq": {
+                                    "CST": "01",
+                                    "vBC": "35.90",
+                                    "pPIS": "0.0000",
+                                    "vPIS": "0.00"
+                                }
+                            },
+                            "COFINS": {
+                                "COFINSAliq": {
+                                    "CST": "01",
+                                    "vBC": "35.90",
+                                    "pCOFINS": "0.0000",
+                                    "vCOFINS": "0.00"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@nItem": "2",
+                        "prod": {
+                            "cProd": "548823774",
+                            "cEAN": "SEM GTIN",
+                            "xProd": "Oleo Capilar Argan Lola Novo 30200100332",
+                            "NCM": "33012990",
+                            "CEST": "2000600",
+                            "CFOP": "5405",
+                            "uCom": "UN",
+                            "qCom": "1.0000",
+                            "vUnCom": "25.9000000000",
+                            "vProd": "25.90",
+                            "cEANTrib": "SEM GTIN",
+                            "uTrib": "UN",
+                            "qTrib": "1.0000",
+                            "vUnTrib": "25.9000",
+                            "indTot": "1"
+                        },
+                        "imposto": {
+                            "ICMS": {
+                                "ICMS60": {
+                                    "orig": "0",
+                                    "CST": "60",
+                                    "pRedBCEfet": "0.0000",
+                                    "vBCEfet": "25.90",
+                                    "pICMSEfet": "0.0000",
+                                    "vICMSEfet": "0.00"
+                                }
+                            },
+                            "PIS": {
+                                "PISAliq": {
+                                    "CST": "01",
+                                    "vBC": "25.90",
+                                    "pPIS": "1.6500",
+                                    "vPIS": "0.43"
+                                }
+                            },
+                            "COFINS": {
+                                "COFINSAliq": {
+                                    "CST": "01",
+                                    "vBC": "25.90",
+                                    "pCOFINS": "7.6000",
+                                    "vCOFINS": "1.97"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "total": {
+                    "ICMSTot": {
+                        "vBC": "0.00",
+                        "vICMS": "0.00",
+                        "vICMSDeson": "0.00",
+                        "vFCP": "0.00",
+                        "vBCST": "0.00",
+                        "vST": "0.00",
+                        "vFCPST": "0.00",
+                        "vFCPSTRet": "0.00",
+                        "vProd": "61.80",
+                        "vFrete": "0.00",
+                        "vSeg": "0.00",
+                        "vDesc": "0.00",
+                        "vII": "0.00",
+                        "vIPI": "0.00",
+                        "vIPIDevol": "0.00",
+                        "vPIS": "0.43",
+                        "vCOFINS": "1.97",
+                        "vOutro": "0.00",
+                        "vNF": "61.80"
+                    }
+                },
+                "transp": {
+                    "modFrete": "9"
+                },
+                "pag": {
+                    "detPag": {
+                        "indPag": "1",
+                        "tPag": "04",
+                        "vPag": "61.80",
+                        "card": {
+                            "tpIntegra": "1",
+                            "CNPJ": "01027058000191",
+                            "tBand": "99",
+                            "cAut": "000089"
+                        }
+                    }
+                },
+                "infAdic": {
+                    "infCpl": "LOJA: Lojas Renner S/A. NSU: 37. Informacao dos Tributos Totais Incidentes (Lei Federal 12.741/2012):  Total R$0,00 (0.00%) Fed. R$9,03 (14.62%) Est. R$14,09 (22.81%) Mun. R$0,00 (0.00%)  Fonte IBPT."
+                },
+                "infRespTec": {
+                    "CNPJ": "54517628000198",
+                    "xContato": "Rodrigo Kreiss",
+                    "email": "depto.homologacao@linx.com.br",
+                    "fone": "51992801474"
+                }
+            },
+            "infNFeSupl": {
+                "qrCode": "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43240392754738002025654020000393981414428040|2|1|1|b09fd2c4e92e5377a07e7e5eacd2cf5f849c7bfa",
+                "urlChave": "www.sefaz.rs.gov.br/nfce/consulta"
+            },
+            "Signature": {
+                "@xmlns": "http://www.w3.org/2000/09/xmldsig#",
+                "SignedInfo": {
+                    "CanonicalizationMethod": {
+                        "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                    },
+                    "SignatureMethod": {
+                        "@Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                    },
+                    "Reference": {
+                        "@URI": "#NFe43240392754738002025654020000393981414428040",
+                        "Transforms": {
+                            "Transform": [
+                                {
+                                    "@Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                },
+                                {
+                                    "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                                }
+                            ]
+                        },
+                        "DigestMethod": {
+                            "@Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+                        },
+                        "DigestValue": "3TIJFVsV5BUTQSzeHoQMjcGCjlg="
+                    }
+                },
+                "SignatureValue": "EdkR7mmSOd1CmFKqks9DE4H7ZaFBAUExqC/ziHmJLKum/oYPI+R9gUdMHeqhApe7KaMo+jumFEr+vU8mXgmlfVx2Z/UIM/gef9/XCwZvDWzjSe+rxWd2rLYB3ZfRs5gil6qK5t+x1CkujKa5d7HgTAb5ayE9oxwIlcRfPRtqlhEvOZ7J4C79sw4tY7ASqecpVoAuDr7vE5aQnTtHOsevlcMFcKxX9MYW0Kqp5PBLgcq61bA06ACb1Nd92of/BvH0fh7ep9+JYI2505Pjh6TkRWu8XsS+omBlmAUPnexAm/G5OCHP0GnXaxWuaAlliS36exuocLtJzB6fECVNPWMRmw==",
+                "KeyInfo": {
+                    "X509Data": {
+                        "X509Certificate": "MIIHkDCCBXigAwIBAgIIN66ddGcw0fMwDQYJKoZIhvcNAQELBQAwTDELMAkGA1UEBhMCQlIxEzARBgNVBAoMCklDUC1CcmFzaWwxKDAmBgNVBAMMH1NFUkFTQSBDZXJ0aWZpY2Fkb3JhIERpZ2l0YWwgdjUwHhcNMjMxMDIzMTI1MDAwWhcNMjQxMDIyMTI0OTU5WjCB2TELMAkGA1UEBhMCQlIxEzARBgNVBAoMCklDUC1CcmFzaWwxFDASBgNVBAsMCyhFTSBCUkFOQ08pMRQwEgYDVQQLDAsoRU0gQlJBTkNPKTEUMBIGA1UECwwLKEVNIEJSQU5DTykxJTAjBgNVBAsMHFNFUkFTQSBDZXJ0aWZpY2Fkb3JhIERpZ2l0YWwxFzAVBgNVBAsMDjI2NzE4NDg3MDAwMTM2MRkwFwYDVQQLDBBWSURFT0NPTkZFUkVOQ0lBMRgwFgYDVQQDDA9MT0pBUyBSRU5ORVIgU0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9Y+Lh+h5Boi1jVMzLX9678wxoNxR7oKA6T1GPppf0mW6OCoB/7/+jgFwfc3JkkaY3k44XVh4u40B+oX0xuHenA+Wg0Fbv8K4FARq6M96bN7gmOvz9aKFCpmHgI/BTt6BWZ/hxv4d4UTAK1xAMdmV+i31puCOqPa+mw2NSUjbFu612jrgqEi/R74IK4zZ80lr8MTI+Tn5F3OEiJvmh/EGHjuX26Nesmtf6FgYUK4KrVkUr3cAsjOZP6Y+kDy6NvzZ9+ztTxEqNMLgM0o/xEy1jSrxiqnK+FuvR7BeVwmQq90Esnk4V1ywQjKUo6h55O8umBZmTAs8DhKs/vKUBE5hhAgMBAAGjggLmMIIC4jAfBgNVHSMEGDAWgBRWda9Kc7LYCMR9+2woHBHV98GozDCBlwYIKwYBBQUHAQEEgYowgYcwRwYIKwYBBQUHMAKGO2h0dHA6Ly93d3cuY2VydGlmaWNhZG9kaWdpdGFsLmNvbS5ici9jYWRlaWFzL3NlcmFzYWNkdjUucDdiMDwGCCsGAQUFBzABhjBodHRwOi8vb2NzcC5jZXJ0aWZpY2Fkb2RpZ2l0YWwuY29tLmJyL3NlcmFzYWNkdjUwgcUGA1UdEQSBvTCBuoEgRkFCSUFOQS5MRU1PU0BMT0pBU1JFTk5FUi5DT00uQlKgPgYFYEwBAwSgNRMzMTYwMjE5ODE4MjA4NDYyOTAwNDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwoCIGBWBMAQMCoBkTF0ZBQklBTkEgTUVSSU5PIERFIExFTU9ToBkGBWBMAQMDoBATDjkyNzU0NzM4MDAwMTYyoBcGBWBMAQMHoA4TDDAwMDAwMDAwMDAwMDBxBgNVHSAEajBoMGYGBmBMAQIBBjBcMFoGCCsGAQUFBwIBFk5odHRwOi8vcHVibGljYWNhby5jZXJ0aWZpY2Fkb2RpZ2l0YWwuY29tLmJyL3JlcG9zaXRvcmlvL2RwYy9kZWNsYXJhY2FvLXNjZC5wZGYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIGbBgNVHR8EgZMwgZAwSaBHoEWGQ2h0dHA6Ly93d3cuY2VydGlmaWNhZG9kaWdpdGFsLmNvbS5ici9yZXBvc2l0b3Jpby9sY3Ivc2VyYXNhY2R2NS5jcmwwQ6BBoD+GPWh0dHA6Ly9sY3IuY2VydGlmaWNhZG9zLmNvbS5ici9yZXBvc2l0b3Jpby9sY3Ivc2VyYXNhY2R2NS5jcmwwHQYDVR0OBBYEFNVPtK81FgykMIW6BGpYZSTgfakEMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAgEAtxHUATBDkkktlOwaC+ffiShu3OsR/OMng/A4n3lVU5K1zhvzfmoBldW4eF10Uv2koZ69iNjvOSmBQX2gcNm3dJi6eG3WSSch97dEAbaUEZ7Bg/z/OdfdpAqAFbJT1NGQ3yGi7EkR97x7KfSgcjqDUv5tMHPEj2btO68uRJaq1lmOqQxUs5xZlwfnoybYJZ1cdHgSdIj8lWypsLKLW0eqZxrYgPp9VkZLQSO8DT1Dm+iaUdB1/cXaWdSNmP93oJkcEwbInA90veNd6yB1bJ03gOuk+IbFwBUNtl8GyO6YId+a2tmWJVMv0XHUNYxJm355UZKQnqpu+YU/4d3VcfM9u2pjvBb328w9kkw7SGsUJS57hjM5AO8Wg7DPnvMg8hEio8MgahuTVAnf2nqQlTnRfYzqkQlzqOvJXTS8eWiw4pmzv8YdHLheXLYS+SmvBa4W9srlErSdLnTXQ/XtPfrGhz71ghMHtyHPuSwIO27MiSzrww/Apeuz+8Ajvr0sTAtlJO5tROmpofyCC/Ka6gSKJY5+hpP0fQKme2042gfUYJi93diyX3FHKMCNej2Ea7OM58azoCee/Bik5StxPB2hbWLPjeAD5A9nlAony+UFkut43hvX5y/aYAtcxWaVkMfSLhIl06HD9+vozC3Sk3WlZZCHlLf0qN0IE/GoKM6euWE="
+                    }
+                }
+            }
+        },
+        "protNFe": {
+            "@versao": "4.00",
+            "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+            "infProt": {
+                "tpAmb": "1",
+                "verAplic": "RSnfce202401251654",
+                "chNFe": "43240392754738002025654020000393981414428040",
+                "dhRecbto": "2024-03-16T12:26:47-03:00",
+                "nProt": "143240479645183",
+                "digVal": "3TIJFVsV5BUTQSzeHoQMjcGCjlg=",
+                "cStat": "100",
+                "xMotivo": "Autorizado o uso da NF-e"
+            }
+        }
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "nfeProc": {
+        "@xmlns": "http://www.portalfiscal.inf.br/nfe",
+        "@versao": "4.00",
+        "NFe": {
+            "infNFe": {
+                "@Id": "NFe35240915436940000367550010986089271126582433",
+                "@versao": "4.00",
+                "ide": {
+                    "cUF": "35",
+                    "cNF": "12658243",
+                    "natOp": "Venda de merc adq ou rec terc, destinada a nao contribuinte",
+                    "mod": "55",
+                    "serie": "1",
+                    "nNF": "98608927",
+                    "dhEmi": "2024-09-26T08:59:01-03:00",
+                    "tpNF": "1",
+                    "idDest": "2",
+                    "cMunFG": "3509205",
+                    "tpImp": "1",
+                    "tpEmis": "1",
+                    "cDV": "3",
+                    "tpAmb": "1",
+                    "finNFe": "1",
+                    "indFinal": "1",
+                    "indPres": "2",
+                    "indIntermed": "0",
+                    "procEmi": "0",
+                    "verProc": "1.0"
+                },
+                "emit": {
+                    "CNPJ": "15436940000367",
+                    "xNome": "AMAZON SERVICOS DE VAREJO DO BRASIL LTDA",
+                    "xFant": "AMAZON.COM.BR",
+                    "enderEmit": {
+                        "xLgr": "AVENIDA ANTONIO CANDIDO MACHADO",
+                        "nro": "3100",
+                        "xBairro": "JORDANESIA",
+                        "cMun": "3509205",
+                        "xMun": "CAJAMAR",
+                        "UF": "SP",
+                        "CEP": "07776415",
+                        "cPais": "1058",
+                        "xPais": "BRASIL"
+                    },
+                    "IE": "241099810118",
+                    "IEST": "9000037293",
+                    "CRT": "3"
+                },
+                "dest": {
+                    "CPF": "***CPF CENSURADO***",
+                    "xNome": "Mariana Toniolo",
+                    "enderDest": {
+                        "xLgr": "Rua Barao do Triunfo",
+                        "nro": "1494",
+                        "xCpl": "Ap. 502 Nossa Senhora de Fatima",
+                        "xBairro": "Nossa Senhora de Fatima",
+                        "cMun": "4316907",
+                        "xMun": "Santa Maria",
+                        "UF": "RS",
+                        "CEP": "97015070",
+                        "cPais": "1058",
+                        "fone": "5555999081444"
+                    },
+                    "indIEDest": "9"
+                },
+                "det": {
+                    "@nItem": "1",
+                    "prod": {
+                        "cProd": "B0DF35V2DY",
+                        "cEAN": "0045496905187",
+                        "xProd": "Nintendo, Jogo, The Legend of Zelda: Echoes of Wisdom - Salve Hyrule com a Princesa Zelda",
+                        "NCM": "95045000",
+                        "CEST": "2107900",
+                        "CFOP": "6108",
+                        "uCom": "UN",
+                        "qCom": "1",
+                        "vUnCom": "349.0000000000",
+                        "vProd": "349.00",
+                        "cEANTrib": "0045496905187",
+                        "uTrib": "UN",
+                        "qTrib": "1",
+                        "vUnTrib": "349.0000000000",
+                        "indTot": "1",
+                        "xPed": "315584789804301"
+                    },
+                    "imposto": {
+                        "vTotTrib": "212.47",
+                        "ICMS": {
+                            "ICMS00": {
+                                "orig": "2",
+                                "CST": "00",
+                                "modBC": "3",
+                                "vBC": "349.00",
+                                "pICMS": "4.0000",
+                                "vICMS": "13.96"
+                            }
+                        },
+                        "IPI": {
+                            "cEnq": "999",
+                            "IPINT": {
+                                "CST": "53"
+                            }
+                        },
+                        "PIS": {
+                            "PISAliq": {
+                                "CST": "01",
+                                "vBC": "289.67",
+                                "pPIS": "1.6500",
+                                "vPIS": "4.78"
+                            }
+                        },
+                        "COFINS": {
+                            "COFINSAliq": {
+                                "CST": "01",
+                                "vBC": "289.67",
+                                "pCOFINS": "7.6000",
+                                "vCOFINS": "22.01"
+                            }
+                        },
+                        "ICMSUFDest": {
+                            "vBCUFDest": "349.00",
+                            "vBCFCPUFDest": "0.00",
+                            "pFCPUFDest": "0.0000",
+                            "pICMSUFDest": "17.0000",
+                            "pICMSInter": "4.00",
+                            "pICMSInterPart": "100.0000",
+                            "vFCPUFDest": "0.00",
+                            "vICMSUFDest": "45.37",
+                            "vICMSUFRemet": "0.00"
+                        }
+                    },
+                    "infAdProd": "Ao aceitar essa mercadoria, voce autoriza a empresa vendedora a recuperar tributos incidentes nessa operacao, conforme legislacao tributaria aplicavel."
+                },
+                "total": {
+                    "ICMSTot": {
+                        "vBC": "349.00",
+                        "vICMS": "13.96",
+                        "vICMSDeson": "0.00",
+                        "vFCPUFDest": "0.00",
+                        "vICMSUFDest": "45.37",
+                        "vICMSUFRemet": "0.00",
+                        "vFCP": "0.00",
+                        "vBCST": "0.00",
+                        "vST": "0.00",
+                        "vFCPST": "0.00",
+                        "vFCPSTRet": "0.00",
+                        "vProd": "349.00",
+                        "vFrete": "0.00",
+                        "vSeg": "0.00",
+                        "vDesc": "0.00",
+                        "vII": "0.00",
+                        "vIPI": "0.00",
+                        "vIPIDevol": "0.00",
+                        "vPIS": "4.78",
+                        "vCOFINS": "22.01",
+                        "vOutro": "0.00",
+                        "vNF": "349.00",
+                        "vTotTrib": "212.47"
+                    }
+                },
+                "transp": {
+                    "modFrete": "0",
+                    "transporta": null
+                },
+                "pag": {
+                    "detPag": {
+                        "indPag": "0",
+                        "tPag": "03",
+                        "vPag": "349.00"
+                    }
+                },
+                "infAdic": {
+                    "infAdFisco": "De acordo com a cls 6, par 2 do Convenio ICMS 236 2021 o ICMS devido ao destino sera recolhido ate o 15 dia do mes subsequente, em razao da inscricao no Cadastro de Contribuintes do ICMS no referido Estado.",
+                    "infCpl": "Valor aproximado dos tributos: Federal - R$ 125.22 (35.88%); Estadual - R$ 87.25 (25.00%); Municipal - R$ 0.00 (0.00%) - Fonte IBPT. EC 87/2015  ASIN: B0DF35V2DY: DIFAL da UF destino R$ 45.37 + FCP R$ 0.00; DIFAL da UF Origem R$ 0.00. A/C Pedro Henrique Hinerasky. Numero do pedido da compra: 702-9727133-8664260",
+                    "obsCont": [
+                        {
+                            "@xCampo": "icmsTransporte",
+                            "xTexto": "1"
+                        },
+                        {
+                            "@xCampo": "nome_dest",
+                            "xTexto": "A/C Pedro Henrique Hinerasky"
+                        }
+                    ]
+                },
+                "compra": null,
+                "infRespTec": {
+                    "CNPJ": "15436940000103",
+                    "xContato": "Amazon Servicos de Varejo do Brasil Ltda.",
+                    "email": "i2c-br-team-ext@amazon.com",
+                    "fone": "08000380541"
+                }
+            },
+            "Signature": {
+                "@xmlns": "http://www.w3.org/2000/09/xmldsig#",
+                "SignedInfo": {
+                    "CanonicalizationMethod": {
+                        "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                    },
+                    "SignatureMethod": {
+                        "@Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                    },
+                    "Reference": {
+                        "@URI": "#NFe35240915436940000367550010986089271126582433",
+                        "Transforms": {
+                            "Transform": [
+                                {
+                                    "@Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                },
+                                {
+                                    "@Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                                }
+                            ]
+                        },
+                        "DigestMethod": {
+                            "@Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+                        },
+                        "DigestValue": "rrK20UV/XuKRgxTPZL4A9mf7Qrk="
+                    }
+                },
+                "SignatureValue": "J7cVmb7L9xwgKNiAYXdNV4iK2kuBujmovnhyKk39rrf9HhkFqi95kFTXNmk4zZh4lsbwNK2OjDLr\r\nrj+hip0rOmutUzCajTvDjS4Z/XBwlmLFp+aF/7bCl5YH+zulGxWmYOIx1bX2GWkJSOWpLi6NGlmN\r\nOLj2L0sogxez8i/VFvzTkxus5bqTkEatbBLn0z+E0xkBmhSt4dn3kz1h7J9iO41I8lDThP+SDP9b\r\nEYYxnrdyfBtF48Qw2e1ErdX/C1qKwtYJVHmljXRDe86ZudLGvcZa2zvVixu5PV/K6c2Zx69BgjHJ\r\nKYuwL2Yg+SA3vvcXv6xO3IYGQGHY9zUj2Tymaw==",
+                "KeyInfo": {
+                    "X509Data": {
+                        "X509Certificate": "MIIHRzCCBS+gAwIBAgIIEd4kBAR2xPAwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR\r\nBgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M\r\nVVRJIE11bHRpcGxhIHY1MB4XDTI0MDYwNDIxMzkwMFoXDTI1MDYwNDIxMzkwMFowgfUxCzAJBgNV\r\nBAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJTUDESMBAGA1UEBxMJU2FvIFBh\r\ndWxvMR4wHAYDVQQLExVBQyBTT0xVVEkgTXVsdGlwbGEgdjUxFzAVBgNVBAsTDjA5NDYxNjQ3MDAw\r\nMTk1MRkwFwYDVQQLExBWaWRlb2NvbmZlcmVuY2lhMRowGAYDVQQLExFDZXJ0aWZpY2FkbyBQSiBB\r\nMTFAMD4GA1UEAxM3QU1BWk9OIFNFUlZJQ09TIERFIFZBUkVKTyBETyBCUkFTSUwgTFREQToxNTQz\r\nNjk0MDAwMDEwMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIdong7q//nFsmN4UTGH\r\nZJUY3zI9bXpvAeUn+S3ipZGbUVdeHcGAt8b9kgk7pSyegtb540hA12JYKova5hkeutPOhrlPvL56\r\npBYNMWAtcQRL/LdPV1uuPyBVZml4MLVW9jDlX7Q6HzXE7+esLUm8TfgJj6H0KclO05Op3fd3CcG4\r\nZh+BVkYF6Ra0JjfJ2Fwe3i5ANTZPFK7J8NAUBj+2MvNkqIHTbK1lo1xrMPhVm5+OU0oVrv9RoY/j\r\nWILGD5HZHllN/jHQeOpjCk5ZnPmAAp5CPQXoG4Z5lhu5bJM4J+uFWlURc95AMmzxIH0zjkf63M4C\r\nTYmXriDKcUk8EOWawU0CAwEAAaOCAnQwggJwMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUxVLtJYAJ\r\n35yCyJ9Hxt20XzHdubEwVAYIKwYBBQUHAQEESDBGMEQGCCsGAQUFBzAChjhodHRwOi8vY2NkLmFj\r\nc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LnA3YjCBrwYDVR0RBIGnMIGk\r\ngRFndWlwZWxAYW1hem9uLmNvbaAhBgVgTAEDAqAYExZEQU5JRUwgTUFaSU5JIERBIFJPQ0hBoBkG\r\nBWBMAQMDoBATDjE1NDM2OTQwMDAwMTAzoDgGBWBMAQMEoC8TLTA3MDcxOTc4MDQzMDY2ODE3MTgw\r\nMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAXBgVgTAEDB6AOEwwwMDAwMDAwMDAwMDAwXQYDVR0g\r\nBFYwVDBSBgZgTAECASYwSDBGBggrBgEFBQcCARY6aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIv\r\nZG9jcy9kcGMtYWMtc29sdXRpLW11bHRpcGxhLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYB\r\nBQUHAwQwgYwGA1UdHwSBhDCBgTA+oDygOoY4aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvbGNy\r\nL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5jcmwwP6A9oDuGOWh0dHA6Ly9jY2QyLmFjc29sdXRpLmNv\r\nbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LmNybDAdBgNVHQ4EFgQUvl7IN8KSMptN1Ldi\r\nbbgT7Qnd+gcwDgYDVR0PAQH/BAQDAgXgMA0GCSqGSIb3DQEBCwUAA4ICAQBZ2yWvEuoS1QhO9KIs\r\n/PVRra9l7LP5HWhO57DfZK2Dnynv3T+/GEtQ61d1RyATSaDjoCxhV83GrOg64HpTZ5lLBAYRVcZO\r\ncgFHf8A1gGU5mJsLou5Nlf5YT0STrdVtHnNctHOQCmPNepXvmsE7PvPyArjhDtQh+VC64Bx2Gue5\r\nQvsT+ijGR9TYSQyp09hNp+IRFpgNqcuMti4yi+6GcvF4EhnR3rpLeMw6MZYBOOlLZwjVod6WjiDS\r\n0p9lyZ91C5OcPB/m7yGAZJr7ap0atNHxSBj9X/CUlxtFYrWkDP9pUG26ny2exujCy4J6wDpjur5l\r\nVYz5RRbNiaq+D0vQe9XWk2knYZ8NdQrEUd9RsD5auatfEW8biTOR4amiv4Y61Ijk/ROYOMhK44cL\r\nGPIGc2nMyS0e905O9TY5OnYRCLNvN8ifEN3/tg1LNvQu+yD6+uo287JJHFQ34I52GUMRr0G9E2Eu\r\neYx2gz0GhBUfqvaGiKxrjZLCvYSfXS5muR9Bg+VMh6b7n8qAbTm2ufrxNkVvbbjq+HQaxuhiG73b\r\nxOIP0XppvsrBrv2f55SgADoUz7ztNg2MDKrqfzbz4CFkwh2i3Kbze3kOX6PEnn0t9/VyMrrpdoH6\r\nLL+UUxYXpM2T0K/g4GsKZMruZcbU0M5VM340Hce8p/jxK/qikgvhYa9e5g=="
+                    }
+                }
+            }
+        },
+        "protNFe": {
+            "@versao": "4.00",
+            "infProt": {
+                "tpAmb": "1",
+                "verAplic": "SP_NFE_PL009_V4",
+                "chNFe": "35240915436940000367550010986089271126582433",
+                "dhRecbto": "2024-09-26T08:59:06-03:00",
+                "nProt": "135242150118401",
+                "digVal": "rrK20UV/XuKRgxTPZL4A9mf7Qrk=",
+                "cStat": "100",
+                "xMotivo": "Autorizado o uso da NF-e"
+            }
+        }
+    }
+}
