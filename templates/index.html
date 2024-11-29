@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Fiscais - Resultados</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <h1>Consulta de Notas Fiscais</h1>
+
+    <h2>Upload de Notas Fiscais (XML)</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="files" multiple required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <section>
+        <h2>Resultados Processados</h2>
+        {% if results.general_data %}
+        <h3>Dados Gerais</h3>
+        <table>
+            <tr>
+                <th>Total de NFEs</th>
+                <th>Total de Produtos</th>
+                <th>Valor Total de Produtos</th>
+                <th>Valor Total de Impostos</th>
+                <th>Valor Total</th>
+            </tr>
+            <tr>
+                <td>{{ results.general_data.totalNFE or "N/A" }}</td>
+                <td>{{ results.general_data.totalProducts or "N/A" }}</td>
+                <td>{{ results.general_data.totalProductsValue or "N/A" }}</td>
+                <td>{{ results.general_data.totalTaxesValue or "N/A" }}</td>
+                <td>{{ results.general_data.totalValue or "N/A" }}</td>
+            </tr>
+        </table>
+
+        <h3>Consulta Específica</h3>
+        <table>
+            <tr>
+                <th>Chave da NFE</th>
+                <th>Fornecedor</th>
+                <th>Valor</th>
+            </tr>
+            {% for item in results.specific_data %}
+            <tr>
+                <td>{{ item.chave or "N/A" }}</td>
+                <td>{{ item.fornecedor or "N/A" }}</td>
+                <td>{{ item.valor or "N/A" }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <h3>Impostos Detalhados</h3>
+        <table>
+            <tr>
+                <th>Chave da NFE</th>
+                <th>Imposto</th>
+                <th>Valor</th>
+            </tr>
+            {% for item in results.detailed_tax_data.details %}
+            <tr>
+                <td>{{ item.chave or "N/A" }}</td>
+                <td>{{ item.imposto or "N/A" }}</td>
+                <td>{{ item.valor or "N/A" }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <h3>Dados dos Fornecedores</h3>
+        <table>
+            <tr>
+                <th>Fornecedor</th>
+                <th>Total de NFEs</th>
+                <th>Valor Total</th>
+            </tr>
+            {% for supplier, data in results.supplier_data.items() %}
+            <tr>
+                <td>{{ supplier or "N/A" }}</td>
+                <td>{{ data.total_nfes or "N/A" }}</td>
+                <td>{{ data.total_value or "N/A" }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <h3>Dados dos Transportadores</h3>
+        <table>
+            <tr>
+                <th>Transportador</th>
+                <th>Total de NFEs</th>
+                <th>Valor Total</th>
+            </tr>
+            {% for transporter, data in results.transporter_data.items() %}
+            <tr>
+                <td>{{ transporter or "N/A" }}</td>
+                <td>{{ data.total_nfes or "N/A" }}</td>
+                <td>{{ data.total_value or "N/A" }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <p>Nenhum dado processado ainda.</p>
+        {% endif %}
+    </section>
+</body>
+
+</html>

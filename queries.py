@@ -1,12 +1,12 @@
-import json
-
-
 def get_product_tax(product):
-    taxValue = 0
+    tax = product.get('imposto', {}).get('vTotTrib', 0)
 
-    try:
-        taxValue += float(product['imposto']['vTotTrib']) #algumas notas nao possuem esse campo, entao tenta pegar cada imposto individualmente
-    except KeyError:
+    if tax:
+        return float(tax)
+    
+    else:
+        taxValue = 0.0
+
         icms = product.get('imposto', {}).get('ICMS', {}).get('ICMS00', {})
         if icms:
             taxValue += float(icms.get('vICMS', 0))
@@ -46,7 +46,7 @@ def general_query(json_data):
             product = products['prod']
             totalProducts += 1
             totalProductsValue += float(product['vProd'])
-            totalTaxesValue += get_product_tax(product)
+            totalTaxesValue += get_product_tax(products)
         else:
             for product in products:
                 totalProducts += 1
@@ -78,7 +78,7 @@ def specific_NFE_query(json_data):
             prod = products['prod']
             productsNames.append(prod['xProd'])
             productsValue.append(float(prod['vProd']))
-            productsTaxes.append(get_product_tax(prod))
+            productsTaxes.append(get_product_tax(products))
             totalProducts += 1
         else:
             for product in products:
@@ -112,12 +112,18 @@ def detailed_tax_query(json_data):
             pis = float(data['nfeProc']["NFe"]["infNFe"]["total"]["ICMSTot"].get("vPIS", 0))
             cofins = float(data['nfeProc']["NFe"]["infNFe"]["total"]["ICMSTot"].get("vCOFINS", 0))
         except KeyError:
-            # Em caso de ausência de impostos, atribuir zero
-            icms = ipi = pis = cofins = 0.0
+            icms = ipi = pis = cofins = 0.0 # Caso não haja impostos especificados, atribuir 0
 
-        # Calcular total de impostos da nota
-        total_taxes = icms + ipi + pis + cofins
-        total_taxes_all_notes += total_taxes
+        sum_taxes = icms + ipi + pis + cofins
+
+        # Verificar se há vTotTrib e comparar com a soma obtida, pois certas notas não especificam os impostos
+        vTotTrib = data['nfeProc']["NFe"]["infNFe"]["total"]["ICMSTot"].get("vTotTrib", {})
+        if vTotTrib:
+            total_taxes = float(vTotTrib)
+            if total_taxes > sum_taxes:
+                sum_taxes = total_taxes
+
+        total_taxes_all_notes += sum_taxes
 
         # Armazenar os detalhes da nota
         nfe_data = {
@@ -126,15 +132,41 @@ def detailed_tax_query(json_data):
             "IPI": ipi,
             "PIS": pis,
             "COFINS": cofins,
-            "TotalTaxes": total_taxes
+            "TotalTaxes": round(sum_taxes,2)
         }
         all_nfe_taxes.append(nfe_data)
+
 
     # Ordenar as notas por impostos totais em ordem decrescente
     all_nfe_taxes_sorted = sorted(all_nfe_taxes, key=lambda x: x["TotalTaxes"], reverse=True)
 
-    return {
-        "TotalTaxesAllNotes": total_taxes_all_notes,
-        "SortedNotesByTaxes": all_nfe_taxes_sorted
-    }
+    return round(total_taxes_all_notes,2), all_nfe_taxes_sorted
 
+def get_supplier_data(json_data): #uma funcao que retorna um dicionario com os fornecedores e todas as notas fiscais deles
+    suppliers = {}
+    for data in json_data:
+        supplier = data['nfeProc']['NFe']['infNFe']['emit']['xNome']
+        if supplier in suppliers:
+            suppliers[supplier].append(data['nfeProc']['NFe']['infNFe']['ide']['nNF'])
+        else:
+            suppliers[supplier] = [data['nfeProc']['NFe']['infNFe']['ide']['nNF']]
+    return suppliers
+
+def get_transp_data(json_data): #uma funcao que retorna um dicionario com os transportadores e todas as notas fiscais deles
+    transporters = {}
+    for data in json_data:
+
+        transp = data['nfeProc']['NFe']['infNFe']['transp'].get('transporta', {})
+        if not transp:
+            continue
+        else:
+            transporter = transp.get('xNome', 'Não especificado')
+
+            if transporter in transporters:
+                transporters[transporter].append(data['nfeProc']['NFe']['infNFe']['ide']['nNF'])
+            else:
+                transporters[transporter] = [data['nfeProc']['NFe']['infNFe']['ide']['nNF']]
+
+    return transporters
+
+ 
