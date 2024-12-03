@@ -6,6 +6,8 @@ def validate_json(folder_path, schema_path):
     with open(schema_path, 'r', encoding='utf-8') as file:
         schema = json.load(file)
     
+    invalid_files = []
+
     for filename in os.listdir(folder_path):
         if filename.endswith('.json'):
             json_file_path = os.path.join(folder_path, filename)
@@ -17,7 +19,8 @@ def validate_json(folder_path, schema_path):
                 print(f"Válido: {filename}")
             except jsonschema.exceptions.ValidationError as e:
                 print(f"Inválido: {filename}")
-                print(e.message)
+                invalid_files.append(filename)
             except jsonschema.exceptions.SchemaError as e:
                 print(f"Erro no schema: {filename}")
-                print(e.message)
+
+    return invalid_files

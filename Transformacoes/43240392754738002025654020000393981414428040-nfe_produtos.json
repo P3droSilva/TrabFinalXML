@@ -1,0 +1,100 @@
+{
+    "produtos": [
+        {
+            "@nItem": "1",
+            "prod": {
+                "cProd": "545950524",
+                "cEAN": "SEM GTIN",
+                "xProd": "Mascara Capilar Super Hidratante Morte S",
+                "NCM": "33059000",
+                "CEST": "2002000",
+                "CFOP": "5405",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "35.9000000000",
+                "vProd": "35.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "35.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS60": {
+                        "orig": "0",
+                        "CST": "60",
+                        "pRedBCEfet": "0.0000",
+                        "vBCEfet": "35.90",
+                        "pICMSEfet": "25.0000",
+                        "vICMSEfet": "8.98"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "35.90",
+                        "pPIS": "0.0000",
+                        "vPIS": "0.00"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "35.90",
+                        "pCOFINS": "0.0000",
+                        "vCOFINS": "0.00"
+                    }
+                }
+            }
+        },
+        {
+            "@nItem": "2",
+            "prod": {
+                "cProd": "548823774",
+                "cEAN": "SEM GTIN",
+                "xProd": "Oleo Capilar Argan Lola Novo 30200100332",
+                "NCM": "33012990",
+                "CEST": "2000600",
+                "CFOP": "5405",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "25.9000000000",
+                "vProd": "25.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "25.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS60": {
+                        "orig": "0",
+                        "CST": "60",
+                        "pRedBCEfet": "0.0000",
+                        "vBCEfet": "25.90",
+                        "pICMSEfet": "0.0000",
+                        "vICMSEfet": "0.00"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "25.90",
+                        "pPIS": "1.6500",
+                        "vPIS": "0.43"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "25.90",
+                        "pCOFINS": "7.6000",
+                        "vCOFINS": "1.97"
+                    }
+                }
+            }
+        }
+    ]
+}

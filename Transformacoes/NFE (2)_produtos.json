@@ -1,0 +1,118 @@
+{
+    "produtos": [
+        {
+            "@nItem": "1",
+            "prod": {
+                "cProd": "1421598264",
+                "cEAN": "9781421598260",
+                "xProd": "The Legend of Zelda: Twilight Princess, Vol. 3: Volume 3",
+                "NCM": "49019900",
+                "CFOP": "6108",
+                "uCom": "UN",
+                "qCom": "1",
+                "vUnCom": "54.3200000000",
+                "vProd": "54.32",
+                "cEANTrib": "9781421598260",
+                "uTrib": "UN",
+                "qTrib": "1",
+                "vUnTrib": "54.3200000000",
+                "indTot": "1",
+                "xPed": "320848066725201"
+            },
+            "imposto": {
+                "vTotTrib": "18.17",
+                "ICMS": {
+                    "ICMS40": {
+                        "orig": "1",
+                        "CST": "41"
+                    }
+                },
+                "IPI": {
+                    "cEnq": "001",
+                    "IPINT": {
+                        "CST": "54"
+                    }
+                },
+                "PIS": {
+                    "PISNT": {
+                        "CST": "06"
+                    }
+                },
+                "COFINS": {
+                    "COFINSNT": {
+                        "CST": "06"
+                    }
+                },
+                "ICMSUFDest": {
+                    "vBCUFDest": "0.00",
+                    "vBCFCPUFDest": "0.00",
+                    "pFCPUFDest": "0.0000",
+                    "pICMSUFDest": "17.0000",
+                    "pICMSInter": "4.00",
+                    "pICMSInterPart": "100.0000",
+                    "vFCPUFDest": "0.00",
+                    "vICMSUFDest": "0.00",
+                    "vICMSUFRemet": "0.00"
+                }
+            },
+            "infAdProd": "NAO INCIDENCIA DO ICMS, ART. 7, XIII, RICMS/SP;Ao aceitar essa mercadoria, voce autoriza a empresa vendedora a recuperar tributos incidentes nessa operacao, conforme legislacao tributaria aplicavel.Imunidade: Art. 150, VI, d, CF; Art. 18, I, RIPI;"
+        },
+        {
+            "@nItem": "2",
+            "prod": {
+                "cProd": "1974705641",
+                "cEAN": "9781974705641",
+                "xProd": "The Legend of Zelda: Twilight Princess, Vol. 5: Volume 5",
+                "NCM": "49019900",
+                "CFOP": "6108",
+                "uCom": "UN",
+                "qCom": "1",
+                "vUnCom": "54.3400000000",
+                "vProd": "54.34",
+                "cEANTrib": "9781974705641",
+                "uTrib": "UN",
+                "qTrib": "1",
+                "vUnTrib": "54.3400000000",
+                "indTot": "1",
+                "xPed": "320848066725201"
+            },
+            "imposto": {
+                "vTotTrib": "18.18",
+                "ICMS": {
+                    "ICMS40": {
+                        "orig": "1",
+                        "CST": "41"
+                    }
+                },
+                "IPI": {
+                    "cEnq": "001",
+                    "IPINT": {
+                        "CST": "54"
+                    }
+                },
+                "PIS": {
+                    "PISNT": {
+                        "CST": "06"
+                    }
+                },
+                "COFINS": {
+                    "COFINSNT": {
+                        "CST": "06"
+                    }
+                },
+                "ICMSUFDest": {
+                    "vBCUFDest": "0.00",
+                    "vBCFCPUFDest": "0.00",
+                    "pFCPUFDest": "0.0000",
+                    "pICMSUFDest": "17.0000",
+                    "pICMSInter": "4.00",
+                    "pICMSInterPart": "100.0000",
+                    "vFCPUFDest": "0.00",
+                    "vICMSUFDest": "0.00",
+                    "vICMSUFRemet": "0.00"
+                }
+            },
+            "infAdProd": "NAO INCIDENCIA DO ICMS, ART. 7, XIII, RICMS/SP;Ao aceitar essa mercadoria, voce autoriza a empresa vendedora a recuperar tributos incidentes nessa operacao, conforme legislacao tributaria aplicavel.Imunidade: Art. 150, VI, d, CF; Art. 18, I, RIPI;"
+        }
+    ]
+}

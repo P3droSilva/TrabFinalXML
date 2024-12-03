@@ -1,0 +1,148 @@
+{
+    "produtos": [
+        {
+            "@nItem": "1",
+            "prod": {
+                "cProd": "625859202",
+                "cEAN": "SEM GTIN",
+                "xProd": "Meia Calca Microfibra Leve Estampado Poa",
+                "NCM": "61152100",
+                "CEST": "0000000",
+                "CFOP": "5102",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "39.9000000000",
+                "vProd": "39.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "39.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS00": {
+                        "orig": "0",
+                        "CST": "00",
+                        "modBC": "3",
+                        "vBC": "39.90",
+                        "pICMS": "17.0000",
+                        "vICMS": "6.78"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "33.12",
+                        "pPIS": "1.6500",
+                        "vPIS": "0.55"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "33.12",
+                        "pCOFINS": "7.6000",
+                        "vCOFINS": "2.52"
+                    }
+                }
+            }
+        },
+        {
+            "@nItem": "2",
+            "prod": {
+                "cProd": "502663402",
+                "cEAN": "SEM GTIN",
+                "xProd": "Meia Calca Microfibra Leve Liso News Pol",
+                "NCM": "61152100",
+                "CEST": "0000000",
+                "CFOP": "5102",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "29.9000000000",
+                "vProd": "29.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "29.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS00": {
+                        "orig": "0",
+                        "CST": "00",
+                        "modBC": "3",
+                        "vBC": "29.90",
+                        "pICMS": "17.0000",
+                        "vICMS": "5.08"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "24.82",
+                        "pPIS": "1.6500",
+                        "vPIS": "0.41"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "24.82",
+                        "pCOFINS": "7.6000",
+                        "vCOFINS": "1.89"
+                    }
+                }
+            }
+        },
+        {
+            "@nItem": "3",
+            "prod": {
+                "cProd": "502663402",
+                "cEAN": "SEM GTIN",
+                "xProd": "Meia Calca Microfibra Leve Liso News Pol",
+                "NCM": "61152100",
+                "CEST": "0000000",
+                "CFOP": "5102",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "29.9000000000",
+                "vProd": "29.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "29.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS00": {
+                        "orig": "0",
+                        "CST": "00",
+                        "modBC": "3",
+                        "vBC": "29.90",
+                        "pICMS": "17.0000",
+                        "vICMS": "5.08"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "24.82",
+                        "pPIS": "1.6500",
+                        "vPIS": "0.41"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "24.82",
+                        "pCOFINS": "7.6000",
+                        "vCOFINS": "1.89"
+                    }
+                }
+            }
+        }
+    ]
+}

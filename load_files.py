@@ -15,6 +15,8 @@ def mask_cpfs(data):
 
 def xml_folder_to_json(folder_path, output_folder):
     os.makedirs(output_folder, exist_ok=True)
+
+    invalid_files = []
     
     for filename in os.listdir(folder_path):
         if filename.endswith('.xml'):
@@ -22,7 +24,13 @@ def xml_folder_to_json(folder_path, output_folder):
             with open(xml_file_path, 'r', encoding='utf-8') as file:
                 xml_data = file.read()
             
-            data_dict = xmltodict.parse(xml_data)
+            try:
+                data_dict = xmltodict.parse(xml_data)
+            except Exception as e:
+                print(f"Erro ao processar o arquivo {filename}: {e}")
+                invalid_files.append(filename)
+                continue
+
             mask_cpfs(data_dict)
             json_data = json.dumps(data_dict, indent=4, ensure_ascii=False)
             
@@ -33,6 +41,8 @@ def xml_folder_to_json(folder_path, output_folder):
                 json_file.write(json_data)
             
             print(f"Convertido: {filename} -> {json_filename}")
+    
+    return invalid_files
 
 def get_json_data(folder_path):
     json_data = []

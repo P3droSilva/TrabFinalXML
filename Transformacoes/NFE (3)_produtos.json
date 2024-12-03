@@ -1,0 +1,57 @@
+{
+    "produtos": {
+        "@nItem": "1",
+        "prod": {
+            "cProd": "B07PDGL5X4",
+            "cEAN": "0736532707260",
+            "xProd": "Sleeves MeepleBR - PADRAO (63,5x88mm)",
+            "NCM": "39232110",
+            "CFOP": "5102",
+            "uCom": "UN",
+            "qCom": "3",
+            "vUnCom": "18.6400000000",
+            "vProd": "55.92",
+            "cEANTrib": "0736532707260",
+            "uTrib": "UN",
+            "qTrib": "3",
+            "vUnTrib": "18.6400000000",
+            "indTot": "1",
+            "xPed": "258702613826301"
+        },
+        "imposto": {
+            "vTotTrib": "21.53",
+            "ICMS": {
+                "ICMS00": {
+                    "orig": "2",
+                    "CST": "00",
+                    "modBC": "3",
+                    "vBC": "55.92",
+                    "pICMS": "17.0000",
+                    "vICMS": "9.51"
+                }
+            },
+            "IPI": {
+                "cEnq": "999",
+                "IPINT": {
+                    "CST": "53"
+                }
+            },
+            "PIS": {
+                "PISAliq": {
+                    "CST": "01",
+                    "vBC": "55.92",
+                    "pPIS": "1.6500",
+                    "vPIS": "0.92"
+                }
+            },
+            "COFINS": {
+                "COFINSAliq": {
+                    "CST": "01",
+                    "vBC": "55.92",
+                    "pCOFINS": "7.6000",
+                    "vCOFINS": "4.25"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "produtos": [
+        {
+            "@nItem": "1",
+            "prod": {
+                "cProd": "928328661",
+                "cEAN": "SEM GTIN",
+                "xProd": "calca Denim  Jeans Liso CARGO JEANS BLAC",
+                "NCM": "62046200",
+                "CEST": "2805900",
+                "CFOP": "5102",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "239.9000000000",
+                "vProd": "239.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "239.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS00": {
+                        "orig": "0",
+                        "CST": "00",
+                        "modBC": "3",
+                        "vBC": "239.90",
+                        "pICMS": "17.0000",
+                        "vICMS": "40.78"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "199.12",
+                        "pPIS": "1.6500",
+                        "vPIS": "3.29"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "199.12",
+                        "pCOFINS": "7.6000",
+                        "vCOFINS": "15.13"
+                    }
+                }
+            }
+        },
+        {
+            "@nItem": "2",
+            "prod": {
+                "cProd": "927943848",
+                "cEAN": "SEM GTIN",
+                "xProd": "Blusa manga curta Microfibra Leve Liso c",
+                "NCM": "61062000",
+                "CEST": "0000000",
+                "CFOP": "5102",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "59.9000000000",
+                "vProd": "59.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "59.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS00": {
+                        "orig": "0",
+                        "CST": "00",
+                        "modBC": "3",
+                        "vBC": "59.90",
+                        "pICMS": "17.0000",
+                        "vICMS": "10.18"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "49.72",
+                        "pPIS": "1.6500",
+                        "vPIS": "0.82"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "49.72",
+                        "pCOFINS": "7.6000",
+                        "vCOFINS": "3.78"
+                    }
+                }
+            }
+        },
+        {
+            "@nItem": "3",
+            "prod": {
+                "cProd": "882126034",
+                "cEAN": "SEM GTIN",
+                "xProd": "Blusa sem manga Meia Malha Liso Alcinha",
+                "NCM": "61062000",
+                "CEST": "0000000",
+                "CFOP": "5102",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "39.9000000000",
+                "vProd": "39.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "39.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS00": {
+                        "orig": "0",
+                        "CST": "00",
+                        "modBC": "3",
+                        "vBC": "39.90",
+                        "pICMS": "17.0000",
+                        "vICMS": "6.78"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "33.12",
+                        "pPIS": "1.6500",
+                        "vPIS": "0.55"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "33.12",
+                        "pCOFINS": "7.6000",
+                        "vCOFINS": "2.52"
+                    }
+                }
+            }
+        },
+        {
+            "@nItem": "4",
+            "prod": {
+                "cProd": "928675523",
+                "cEAN": "SEM GTIN",
+                "xProd": "Shampoo Papo Reto 270ml Lola Cosmetics:2",
+                "NCM": "33051000",
+                "CEST": "2001700",
+                "CFOP": "5405",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "49.9000000000",
+                "vProd": "49.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "49.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS60": {
+                        "orig": "0",
+                        "CST": "60",
+                        "pRedBCEfet": "0.0000",
+                        "vBCEfet": "49.90",
+                        "pICMSEfet": "25.0000",
+                        "vICMSEfet": "12.48"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "37.42",
+                        "pPIS": "0.0000",
+                        "vPIS": "0.00"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "37.42",
+                        "pCOFINS": "0.0000",
+                        "vCOFINS": "0.00"
+                    }
+                }
+            }
+        },
+        {
+            "@nItem": "5",
+            "prod": {
+                "cProd": "928134129",
+                "cEAN": "SEM GTIN",
+                "xProd": "Top Microfibra Leve Liso BLUSA SM COM TO",
+                "NCM": "61062000",
+                "CEST": "0000000",
+                "CFOP": "5102",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "69.9000000000",
+                "vProd": "69.90",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "69.9000",
+                "indTot": "1"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS00": {
+                        "orig": "0",
+                        "CST": "00",
+                        "modBC": "3",
+                        "vBC": "69.90",
+                        "pICMS": "17.0000",
+                        "vICMS": "11.88"
+                    }
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "01",
+                        "vBC": "58.02",
+                        "pPIS": "1.6500",
+                        "vPIS": "0.96"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "01",
+                        "vBC": "58.02",
+                        "pCOFINS": "7.6000",
+                        "vCOFINS": "4.41"
+                    }
+                }
+            }
+        }
+    ]
+}

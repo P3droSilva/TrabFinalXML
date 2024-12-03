@@ -1,0 +1,59 @@
+{
+    "produtos": {
+        "@nItem": "1",
+        "prod": {
+            "cProd": "TF0410632570P",
+            "cEAN": "7909563161971",
+            "xProd": "CAM F MC OUTLAST CACTUS P",
+            "NCM": "61099000",
+            "CEST": "2805900",
+            "CFOP": "1202",
+            "uCom": "PC",
+            "qCom": "1.0000",
+            "vUnCom": "169.9000000000",
+            "vProd": "169.90",
+            "cEANTrib": "7909563161971",
+            "uTrib": "PC",
+            "qTrib": "1.0000",
+            "vUnTrib": "169.9000000000",
+            "indTot": "1"
+        },
+        "imposto": {
+            "vTotTrib": "0.00",
+            "ICMS": {
+                "ICMSSN102": {
+                    "orig": "0",
+                    "CSOSN": "102"
+                }
+            },
+            "IPI": {
+                "cEnq": "999",
+                "IPINT": {
+                    "CST": "03"
+                }
+            },
+            "PIS": {
+                "PISOutr": {
+                    "CST": "99",
+                    "vBC": "0.00",
+                    "pPIS": "0.0000",
+                    "vPIS": "0.00"
+                }
+            },
+            "COFINS": {
+                "COFINSOutr": {
+                    "CST": "99",
+                    "vBC": "0.00",
+                    "pCOFINS": "0.0000",
+                    "vCOFINS": "0.00"
+                }
+            }
+        },
+        "impostoDevol": {
+            "pDevol": "100.00",
+            "IPI": {
+                "vIPIDevol": "0.00"
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "produtos": {
+        "@nItem": "1",
+        "prod": {
+            "cProd": "B07BSL81YD",
+            "cEAN": "7908010112535",
+            "xProd": "Jogo War Edicao Especial",
+            "NCM": "95030099",
+            "CFOP": "5102",
+            "uCom": "UN",
+            "qCom": "1",
+            "vUnCom": "122.3400000000",
+            "vProd": "122.34",
+            "cEANTrib": "7908010112535",
+            "uTrib": "UN",
+            "qTrib": "1",
+            "vUnTrib": "122.3400000000",
+            "vDesc": "10.00",
+            "indTot": "1",
+            "xPed": "344247956472301",
+            "nFCI": "2B38D86C-5BF5-4C42-A71E-432A58A4A762"
+        },
+        "imposto": {
+            "vTotTrib": "46.28",
+            "ICMS": {
+                "ICMS00": {
+                    "orig": "5",
+                    "CST": "00",
+                    "modBC": "3",
+                    "vBC": "112.34",
+                    "pICMS": "17.0000",
+                    "vICMS": "19.10"
+                }
+            },
+            "IPI": {
+                "cEnq": "999",
+                "IPINT": {
+                    "CST": "53"
+                }
+            },
+            "PIS": {
+                "PISAliq": {
+                    "CST": "01",
+                    "vBC": "93.24",
+                    "pPIS": "1.6500",
+                    "vPIS": "1.54"
+                }
+            },
+            "COFINS": {
+                "COFINSAliq": {
+                    "CST": "01",
+                    "vBC": "93.24",
+                    "pCOFINS": "7.6000",
+                    "vCOFINS": "7.09"
+                }
+            }
+        }
+    }
+}

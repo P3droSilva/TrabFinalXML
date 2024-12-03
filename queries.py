@@ -1,3 +1,6 @@
+import os
+import xml.etree.ElementTree as ET
+
 def get_product_tax(product):
     tax = product.get('imposto', {}).get('vTotTrib', 0)
 
@@ -25,7 +28,7 @@ def get_product_tax(product):
         if cofins:
             taxValue += float(cofins.get('vCOFINS', 0))
 
-    return taxValue
+    return round(taxValue, 2)
 
 
 def general_query(json_data):
@@ -56,9 +59,9 @@ def general_query(json_data):
     return {
         'totalNFE': totalNFE,
         'totalProducts': totalProducts,
-        'totalProductsValue': totalProductsValue,
-        'totalTaxesValue': totalTaxesValue,
-        'totalValue': totalValue
+        'totalProductsValue': "{:.2f}".format(totalProductsValue),
+        'totalTaxesValue':"{:.2f}".format(totalTaxesValue),
+        'totalValue': "{:.2f}".format(totalValue)
     }
 
 
@@ -77,14 +80,14 @@ def specific_NFE_query(json_data):
         if isinstance(products, dict): #se for apenas um produto, ele vem em dicionario ao inves de lista
             prod = products['prod']
             productsNames.append(prod['xProd'])
-            productsValue.append(float(prod['vProd']))
-            productsTaxes.append(get_product_tax(products))
+            productsValue.append("{:.2f}".format(float(prod['vProd'])))
+            productsTaxes.append("{:.2f}".format(get_product_tax(products)))
             totalProducts += 1
         else:
             for product in products:
                 productsNames.append(product['prod']['xProd'])
-                productsValue.append(float(product['prod']['vProd']))
-                productsTaxes.append(get_product_tax(product))
+                productsValue.append("{:.2f}".format(float(product['prod']['vProd'])))
+                productsTaxes.append("{:.2f}".format(get_product_tax(product)))
                 totalProducts += 1
 
         NFE = {
@@ -125,24 +128,33 @@ def detailed_tax_query(json_data):
 
         total_taxes_all_notes += sum_taxes
 
+        productsNames = []
+        products = data['nfeProc']['NFe']['infNFe']['det']
+        if isinstance(products, dict):
+            productsNames.append(products['prod']['xProd'])
+        else:
+            for product in products:
+                productsNames.append(product['prod']['xProd'])
+
         # Armazenar os detalhes da nota
         nfe_data = {
             "NFe": data['nfeProc']["NFe"]["infNFe"]["ide"]["nNF"],
-            "ICMS": icms,
-            "IPI": ipi,
-            "PIS": pis,
-            "COFINS": cofins,
-            "TotalTaxes": round(sum_taxes,2)
+            "productsNames": productsNames,
+            "ICMS": "{:.2f}".format(icms),
+            "IPI": "{:.2f}".format(ipi),
+            "PIS": "{:.2f}".format(pis),
+            "COFINS": "{:.2f}".format(cofins),
+            "TotalTaxes": "{:.2f}".format(sum_taxes)
         }
         all_nfe_taxes.append(nfe_data)
 
 
     # Ordenar as notas por impostos totais em ordem decrescente
-    all_nfe_taxes_sorted = sorted(all_nfe_taxes, key=lambda x: x["TotalTaxes"], reverse=True)
+    all_nfe_taxes_sorted = sorted(all_nfe_taxes, key=lambda x: float(x["TotalTaxes"]), reverse=True)
 
     return round(total_taxes_all_notes,2), all_nfe_taxes_sorted
 
-def get_supplier_data(json_data): #uma funcao que retorna um dicionario com os fornecedores e todas as notas fiscais deles
+def get_supplier_nfe_links(json_data, folder_path):
     suppliers = {}
     for data in json_data:
         supplier = data['nfeProc']['NFe']['infNFe']['emit']['xNome']
@@ -150,12 +162,41 @@ def get_supplier_data(json_data): #uma funcao que retorna um dicionario com os f
             suppliers[supplier].append(data['nfeProc']['NFe']['infNFe']['ide']['nNF'])
         else:
             suppliers[supplier] = [data['nfeProc']['NFe']['infNFe']['ide']['nNF']]
-    return suppliers
+    
+    file_links = {supplier: [] for supplier in suppliers}
 
-def get_transp_data(json_data): #uma funcao que retorna um dicionario com os transportadores e todas as notas fiscais deles
+    for file_name in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, file_name)
+        
+        if not file_name.endswith('.xml'):
+            continue
+
+        try:
+            namespace = {'ns': 'http://www.portalfiscal.inf.br/nfe'}
+            tree = ET.parse(file_path)
+            root = tree.getroot()
+            nfe_number = root.find('.//ns:ide/ns:nNF', namespace).text
+
+            for supplier, nfe_list in suppliers.items():
+                if nfe_number in nfe_list:
+                    file_links[supplier].append(file_path)
+                    break
+
+        except Exception as e:
+            print(f"Erro ao processar o arquivo {file_name}: {e}")
+            continue
+
+    # Ordena os fornecedores em ordem alfabética
+    supplier_data = {
+        supplier: {"nfe_list": nfe_list, "file_links": file_links[supplier]} 
+        for supplier, nfe_list in sorted(suppliers.items())
+    }
+
+    return supplier_data
+
+def get_transp_nfe_links(json_data, folder_path):
     transporters = {}
     for data in json_data:
-
         transp = data['nfeProc']['NFe']['infNFe']['transp'].get('transporta', {})
         if not transp:
             continue
@@ -167,6 +208,33 @@ def get_transp_data(json_data): #uma funcao que retorna um dicionario com os tra
             else:
                 transporters[transporter] = [data['nfeProc']['NFe']['infNFe']['ide']['nNF']]
 
-    return transporters
+    file_links = {transporter: [] for transporter in transporters}
 
- 
+    for file_name in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, file_name)
+        
+        if not file_name.endswith('.xml'):
+            continue
+
+        try:
+            namespace = {'ns': 'http://www.portalfiscal.inf.br/nfe'}
+            tree = ET.parse(file_path)
+            root = tree.getroot()
+            nfe_number = root.find('.//ns:ide/ns:nNF', namespace).text
+
+            for transporter, nfe_list in transporters.items():
+                if nfe_number in nfe_list:
+                    file_links[transporter].append(file_path)
+                    break
+
+        except Exception as e:
+            print(f"Erro ao processar o arquivo {file_name}: {e}")
+            continue
+
+    # Ordena os transportadores em ordem alfabética
+    transporter_data = {
+        transporter: {"nfe_list": nfe_list, "file_links": file_links[transporter]} 
+        for transporter, nfe_list in sorted(transporters.items())
+    }
+
+    return transporter_data
