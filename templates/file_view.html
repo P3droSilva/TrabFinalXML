@@ -32,6 +32,26 @@
         </button>
     </a>
 
+    <div>
+        {% if results.all_products_json %}
+        <a href="{{ results.all_products_json }}">
+            <button type="button" class="btn btn-outline-secondary mb-3">
+                JSON com todos os produtos das NF-e
+            </button>
+        </a>
+        {% else %}
+        <p>Nenhum dado disponível.</p>
+        {% endif %} {% if results.all_products_ordered_nfe %}
+        <a href="{{ results.all_products_ordered_nfe }}">
+            <button type="button" class="btn btn-outline-secondary mb-3">
+                NF-e com todos produtos ordenados alfabeticamente
+            </button>
+        </a>
+        {% else %}
+        <p>Nenhum dado disponível.</p>
+        {% endif %}
+    </div>
+
     <section>
         <h2>Notas Fiscais Existentes</h2>
         {% if results.specific_file_transformations %}
@@ -39,8 +59,9 @@
             <thead class="table-dark">
                 <tr>
                     <th scope="col">Chave da NF-e</th>
-                    <th scope="col">NFe em JSON</th>
-                    <th scope="col">JSON de Produtos</th>
+                    <th scope="col">NF-e em JSON</th>
+                    <th scope="col">JSON de Produtos da NF-e</th>
+                    <th scope="col">JSON com Produtos Ordenados Alfabeticamente</th>
                     <th scope="col">Ação</th>
                 </tr>
             </thead>
@@ -55,6 +76,9 @@
                     </td>
                     <td>
                         <a href="{{ paths[2] }}">Link</a><br>
+                    </td>
+                    <td>
+                        <a href="{{ paths[3] }}">Link</a><br>
                     </td>
                     <td>
                         <form action="{{ url_for('delete_files', xml_path=paths[0]) }}" method="post" style="display:inline;">

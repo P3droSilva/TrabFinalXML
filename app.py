@@ -3,7 +3,7 @@ import os
 from load_files import xml_folder_to_json, get_json_data
 from validate import validate_json
 from queries import general_query, specific_NFE_query, detailed_tax_query, get_supplier_nfe_links, get_transp_nfe_links
-from transformation import specific_nfe_transformations
+from transformation import specific_nfe_transformations, all_products_json, all_products_ordered_nfe
 
 app = Flask(__name__)
 app.secret_key = 'projeto_xml_json'
@@ -30,7 +30,9 @@ processed_data = {
 }
 
 transformations = {
-    "specific_file_transformations": None
+    "specific_file_transformations": None,
+    "all_products_json": None,
+    "all_products_ordered_nfe": None
 }
 
 
@@ -53,6 +55,8 @@ def process_existing_files():
 
         # Transformações de Arquivos
         transformations["specific_file_transformations"] = specific_nfe_transformations(UPLOAD_FOLDER, OUTPUT_FOLDER, TRANSFORMATION_FOLDER)
+        transformations["all_products_json"] = all_products_json(json_data, TRANSFORMATION_FOLDER)
+        transformations["all_products_ordered_nfe"] = all_products_ordered_nfe(json_data, TRANSFORMATION_FOLDER)
         
 
     except Exception as e:

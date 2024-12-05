@@ -1,5 +1,5 @@
 import os
-import xml.etree.ElementTree as ET
+import xmltodict
 
 def get_product_tax(product):
     tax = product.get('imposto', {}).get('vTotTrib', 0)
@@ -165,26 +165,25 @@ def get_supplier_nfe_links(json_data, folder_path):
     
     file_links = {supplier: [] for supplier in suppliers}
 
-    for file_name in os.listdir(folder_path):
-        file_path = os.path.join(folder_path, file_name)
+    for xml_name in os.listdir(folder_path):
+        xml_path = os.path.join(folder_path, xml_name)
         
-        if not file_name.endswith('.xml'):
-            continue
+        if  xml_name.endswith('.xml'):
+            with open(xml_path, 'r', encoding='utf-8') as file:
+                xml_data = file.read()
 
-        try:
-            namespace = {'ns': 'http://www.portalfiscal.inf.br/nfe'}
-            tree = ET.parse(file_path)
-            root = tree.getroot()
-            nfe_number = root.find('.//ns:ide/ns:nNF', namespace).text
+            try:
+                data_dict = xmltodict.parse(xml_data)
+                nfe_number = data_dict['nfeProc']['NFe']['infNFe']['ide']['nNF']
 
-            for supplier, nfe_list in suppliers.items():
-                if nfe_number in nfe_list:
-                    file_links[supplier].append(file_path)
-                    break
+                for transporter, nfe_list in suppliers.items():
+                    if nfe_number in nfe_list:
+                        file_links[transporter].append(xml_path)
+                        break
 
-        except Exception as e:
-            print(f"Erro ao processar o arquivo {file_name}: {e}")
-            continue
+            except Exception as e:
+                print(f"Erro ao processar o arquivo {xml_name}: {e}")
+                continue
 
     # Ordena os fornecedores em ordem alfabética
     supplier_data = {
@@ -196,6 +195,7 @@ def get_supplier_nfe_links(json_data, folder_path):
 
 def get_transp_nfe_links(json_data, folder_path):
     transporters = {}
+
     for data in json_data:
         transp = data['nfeProc']['NFe']['infNFe']['transp'].get('transporta', {})
         if not transp:
@@ -210,26 +210,25 @@ def get_transp_nfe_links(json_data, folder_path):
 
     file_links = {transporter: [] for transporter in transporters}
 
-    for file_name in os.listdir(folder_path):
-        file_path = os.path.join(folder_path, file_name)
+    for xml_name in os.listdir(folder_path):
+        xml_path = os.path.join(folder_path, xml_name)
         
-        if not file_name.endswith('.xml'):
-            continue
+        if  xml_name.endswith('.xml'):
+            with open(xml_path, 'r', encoding='utf-8') as file:
+                xml_data = file.read()
 
-        try:
-            namespace = {'ns': 'http://www.portalfiscal.inf.br/nfe'}
-            tree = ET.parse(file_path)
-            root = tree.getroot()
-            nfe_number = root.find('.//ns:ide/ns:nNF', namespace).text
+            try:
+                data_dict = xmltodict.parse(xml_data)
+                nfe_number = data_dict['nfeProc']['NFe']['infNFe']['ide']['nNF']
 
-            for transporter, nfe_list in transporters.items():
-                if nfe_number in nfe_list:
-                    file_links[transporter].append(file_path)
-                    break
+                for transporter, nfe_list in transporters.items():
+                    if nfe_number in nfe_list:
+                        file_links[transporter].append(xml_path)
+                        break
 
-        except Exception as e:
-            print(f"Erro ao processar o arquivo {file_name}: {e}")
-            continue
+            except Exception as e:
+                print(f"Erro ao processar o arquivo {xml_name}: {e}")
+                continue
 
     # Ordena os transportadores em ordem alfabética
     transporter_data = {

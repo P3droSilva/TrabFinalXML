@@ -91,6 +91,7 @@
             </div>
             <!-- Tabela de Consulta Específica -->
             <div class="tab-pane fade" id="specific-data" role="tabpanel" aria-labelledby="specific-data-tab">
+                {% if results.specific_data %}
                 <h3>Consulta Específica</h3>
                 <table class="table table-striped table-bordered">
                     <thead class="table-dark">
@@ -124,11 +125,13 @@
                         {% endfor -%}
                     </tbody>
                 </table>
+                {% else %}
+                <p>Nenhum dado processado ainda.</p>
+                {% endif %}
             </div>
-
             <!-- Tabela de Impostos Detalhados -->
             <div class="tab-pane fade" id="tax-data" role="tabpanel" aria-labelledby="tax-data-tab">
-                {% if results.detailed_tax_data %}
+                {% if results.detailed_tax_data.details %}
                 <h3>Impostos Detalhados</h3>
                 <table class="table table-striped table-bordered">
                     <thead class="table-dark">
@@ -159,7 +162,7 @@
                     </tbody>
                 </table>
                 {% else %}
-                <p>Nenhum dado disponível.</p>
+                <p>Nenhum dado processado ainda.</p>
                 {% endif %}
             </div>
 
