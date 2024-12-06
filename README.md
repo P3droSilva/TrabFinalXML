@@ -14,3 +14,5 @@ Para rodar o projeto, rode no terminal:
 `python3 app.py`
 
 Após digitar o comando, aparecerá no terminal uma URL para acesso da página web criada para análise das notas fiscais. Lá, o usuário pode fazer upload (com validação automática) dos arquivos xml, além de excluir arquivos que fez upload previamente. Todos as consultas estarão disponíveis em tabelas separadas por tabs. As transformações estão presentes na página de visualização de arquivos.
+
+Projeto disponível em https://github.com/P3droSilva/TrabFinalXML
