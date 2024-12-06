@@ -125,8 +125,6 @@ def all_products_ordered_nfe(json_data, path):
 
     for nfe in json_data:
         json_det = nfe['nfeProc']['NFe']['infNFe']['det']
-        print(json_det)
-        print("\n\n")
         if isinstance(json_det, dict):
             new_json['nfeProc']['NFe']['infNFe']['det'].append(json_det)
         elif isinstance(json_det, list):
@@ -157,9 +155,12 @@ def all_products_ordered_nfe(json_data, path):
         pis = float(nfe_total.get('vPIS', 0.0))
         cofins = float(nfe_total.get('vCOFINS', 0.0))
 
-        vTotTrib = float(nfe_total.get('vTotTrib', icms + ipi + pis + cofins))
+        vTotTrib = float(nfe_total.get('vTotTrib', 0.0))
         vProd = float(nfe_total.get('vProd', 0.0))
         vNf = float(nfe_total.get('vNF', 0.0))
+
+        if vTotTrib < (icms + ipi + pis + cofins):
+            vTotTrib = icms + ipi + pis + cofins
 
         new_json['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vICMS'] = "{:.2f}".format(icms + float(new_json['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vICMS']))
         new_json['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vIPI'] = "{:.2f}".format(ipi + float(new_json['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vIPI']))
@@ -169,6 +170,8 @@ def all_products_ordered_nfe(json_data, path):
         new_json['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vProd'] = "{:.2f}".format(vProd + float(new_json['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vProd']))
         new_json['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vNF'] = "{:.2f}".format(vNf + float(new_json['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vNF']))
         
+
+
     nfe_pag = new_json['nfeProc']['NFe']['infNFe'].get('pag', [])
     if nfe_pag:
         del new_json['nfeProc']['NFe']['infNFe']['pag']

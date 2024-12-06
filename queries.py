@@ -13,8 +13,6 @@ def get_product_tax(product):
         icms = product.get('imposto', {}).get('ICMS', {}).get('ICMS00', {})
         if icms:
             taxValue += float(icms.get('vICMS', 0))
-        elif product.get('imposto', {}).get('ICMS', {}).get('ICMS60', {}):
-            taxValue += float(product['imposto']['ICMS']['ICMS60']['vICMSEfet'])
         
         ipi = product.get('imposto', {}).get('IPI', {}).get('IPITrib', {})
         if ipi:
@@ -39,6 +37,7 @@ def general_query(json_data):
     totalValue = 0
 
     for data in json_data:
+
 
         totalNFE += 1
         totalValue += float(data['nfeProc']['NFe']['infNFe']['total']['ICMSTot']['vNF'])
