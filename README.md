@@ -5,6 +5,8 @@
 
 Projeto feito utilizando Python3 com manipulação das notas em XML convertidas para JSON.
 
+Aluno: Pedro Henrique da Silva Hinerasky
+
 ### As seguintes bibliotecas em Python são necessárias para rodar o projeto, e necessitam ser instaladas com pip:
 - jsonschema:   `pip install jsonschema`
 - xmltodict:    `pip install xmltodict`
